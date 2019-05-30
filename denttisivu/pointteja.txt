@@ -1,0 +1,16 @@
+pointteja
+
+-logoa isommaksi
+
+-tavutukset pois
+
+-pallot
+*kieli
+*ajanvaraus
+
+-palvelumme-osion tekstit toimiviksi
+
+-otsikot henkilökunta-osioon
+
+-hinnasto avattavaksi
+-hinnastoon PDF-printtaus
