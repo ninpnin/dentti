@@ -18,13 +18,25 @@ body {
 
 #firstimage {
     width: 100%;
-    height: 400px;
-    background-image: url("https://s14-eu5.startpage.com/cgi-bin/serveimage?url=https%3A%2F%2Fwww.logistec.com%2Fwp-content%2Fuploads%2F2017%2F12%2Fplaceholder.png&sp=09dad6a980dcaecf0a974b620706dbe6");
+    min-height: 400px;
+    max-height: 400px;
+    background-image: url("img/odhuone-laaja-crop.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 50% 50%;
+    background-position: 0% 50%;
 
-  }
+}
+
+#clockimage {
+    width: 100%;
+    min-height: 400px;
+    max-height: 400px;
+    background-image: url("img/kello.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 30% 50%;
+
+}
 
 #denttilogo {
 	max-width:150px;
