@@ -35,6 +35,16 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 30% 50%;
+}
+
+#mapimage {
+    width: 100%;
+    min-height: 400px;
+    max-height: 400px;
+    background-image: url("img/kartta.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 60% 30%;
 
 }
 
