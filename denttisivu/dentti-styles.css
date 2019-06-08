@@ -48,6 +48,13 @@ body {
 
 }
 
+#pricediv {
+    background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 30% 50%;
+}
+
 #denttilogo {
 	max-width:150px;
 }
