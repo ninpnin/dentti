@@ -6,3 +6,10 @@ var data = $.csv.toObjects(ex);
 
 console.log(data);
 console.log("DONE!");
+
+$("body").attr({
+    "data-spy": "scroll",
+    "data-target": ".navbar"
+  }).scrollspy({
+    offset: 150
+  });
