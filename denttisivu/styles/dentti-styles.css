@@ -69,6 +69,9 @@ body {
   background-position: 30% 50%;
 }
 
+#pdflink:hover {
+  color: gray;
+}
 #denttilogo {
 	max-width:150px;
 }
