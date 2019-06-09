@@ -55,7 +55,7 @@ body {
 #mapimage {
   width: 100%;
   min-height: 400px;
-  max-height: 400px;
+  max-height: 500px;
   background-image: url("img/kartta.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -84,7 +84,7 @@ body {
 }
 
 .container {
-  max-width: 1200pt;
+  max-width: 900pt;
 }
 
 .navbar
