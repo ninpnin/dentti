@@ -1,16 +1,11 @@
 function downloadPrices() {
-
-	var doc = new jsPDF();
-	// You can use html:
-
-	console.log("Write table...");
-
-	doc.autoTable({html: '#pricetable'});
-
+	// Check whether user wants to download the price list
 	var r = confirm("Ladataanko hinnasto?");
 	if (r == true) {
-	  doc.save('hinnasto.pdf');
+		console.log("Write table...");
+		var doc = new jsPDF();
+		doc.autoTable({html: '#pricetable'});
+	  	doc.save('hinnasto.pdf');
+	  	console.log("DONE!")
 	}
-
-	console.log("DONE!")
 }
