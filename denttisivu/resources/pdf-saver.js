@@ -7,7 +7,10 @@ function downloadPrices() {
 
 	doc.autoTable({html: '#pricetable'});
 
-	doc.save('hinnasto.pdf');
+	var r = confirm("Ladataanko hinnasto?");
+	if (r == true) {
+	  doc.save('hinnasto.pdf');
+	}
 
 	console.log("DONE!")
 }
