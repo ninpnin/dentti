@@ -1,6 +1,5 @@
 body {
   padding-top: 5rem;
-
   -moz-hyphens: none;
   -ms-hyphens: none;
   -webkit-hyphens: none;
@@ -17,24 +16,24 @@ body {
 }
 
 #firstimage {
-    width: 100%;
-    min-height: 400px;
-    max-height: 400px;
-    background-image: url("img/odhuone-laaja-crop.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 0% 50%;
-
+  width: 100%;
+  min-height: 400px;
+  max-height: 400px;
+  background-image: url("img/odhuone-laaja-crop.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0% 50%;
+  margin-bottom: 15px;
 }
 
 #clockimage {
-    width: 100%;
-    min-height: 400px;
-    max-height: 400px;
-    background-image: url("img/kello.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 30% 50%;
+  width: 100%;
+  min-height: 400px;
+  max-height: 400px;
+  background-image: url("img/kello.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 30% 50%;
 }
 
 #teddyimage {
@@ -54,21 +53,20 @@ body {
 }
 
 #mapimage {
-    width: 100%;
-    min-height: 400px;
-    max-height: 400px;
-    background-image: url("img/kartta.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 60% 30%;
-
+  width: 100%;
+  min-height: 400px;
+  max-height: 400px;
+  background-image: url("img/kartta.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 60% 30%;
 }
 
 #pricediv {
-    background-color: white;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 30% 50%;
+  background-color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 30% 50%;
 }
 
 #denttilogo {
@@ -86,7 +84,7 @@ body {
 }
 
 .container {
-  max-width: 800pt;
+  max-width: 1200pt;
 }
 
 .navbar
