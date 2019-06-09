@@ -1,9 +1,5 @@
 body {
   padding-top: 5rem;
-  -moz-hyphens: none;
-  -ms-hyphens: none;
-  -webkit-hyphens: none;
-  hyphens: none;
 }
 .starter-template {
   padding: 3rem 1.5rem;
@@ -69,6 +65,10 @@ body {
   background-position: 30% 50%;
 }
 
+#pricetable {
+  max-width: 100%;
+}
+
 #pdflink:hover {
   color: gray;
 }
@@ -80,6 +80,9 @@ body {
   -webkit-hyphens: none;
   -ms-hyphens: none;
   hyphens: none;
+  -moz-hyphens: none;
+  hyphens: none;
+
 }
 
 .bigtitle {
