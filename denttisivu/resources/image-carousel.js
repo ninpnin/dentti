@@ -11,7 +11,7 @@ function switchImage() {
 		$("#teddyimage").css({"background-image": "url("+img2+")"});
 	}
 
-	setTimeout(function() { switchImage(); }, 2000);
+	setTimeout(function() { switchImage(); }, 8000);
 }
 
 switchImage();
