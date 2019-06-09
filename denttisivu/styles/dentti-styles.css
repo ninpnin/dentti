@@ -19,7 +19,7 @@ body {
   width: 100%;
   min-height: 450px;
   max-height: 450px;
-  background-image: url("img/odhuone-laaja-crop.jpg");
+  background-image: url("../img/odhuone-laaja-crop.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 0% 50%;
@@ -30,7 +30,7 @@ body {
   width: 100%;
   min-height: 400px;
   max-height: 400px;
-  background-image: url("img/kello.jpg");
+  background-image: url("../img/kello.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 30% 50%;
@@ -40,7 +40,7 @@ body {
   width: 100%;
   min-height: 400px;
   max-height: 400px;
-  background-image: url("img/nalle-odottaa.jpg");
+  background-image: url("../img/nalle-odottaa.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 55% 50%;
@@ -56,7 +56,7 @@ body {
   width: 100%;
   min-height: 400px;
   max-height: 500px;
-  background-image: url("img/kartta.png");
+  background-image: url("../img/kartta.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 60% 30%;
