@@ -79,10 +79,8 @@ body {
 .nohyph {
   -webkit-hyphens: none;
   -ms-hyphens: none;
-  hyphens: none;
   -moz-hyphens: none;
   hyphens: none;
-
 }
 
 .bigtitle {
