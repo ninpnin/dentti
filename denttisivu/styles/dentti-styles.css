@@ -90,6 +90,13 @@ body {
   hyphens: auto;
 }
 
+.manual-hyph {
+  -webkit-hyphens: manual;
+  -ms-hyphens: manual;
+  -moz-hyphens: manual;
+  hyphens: manual;
+}
+
 .bigtitle {
   padding-bottom: 3%;
 }
