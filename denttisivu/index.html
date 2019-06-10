@@ -16,9 +16,9 @@
     <link href="styles/dentti-styles.css" rel="stylesheet">
 </head>
 
-<body data-spy="scroll" data-offset="100px" data-target=".navbar">
+<body data-spy="scroll" data-offset="100px" data-target=".navbar" id="body">
     <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top" id="mainNav">
-        <a class="navbar-brand js-scroll-trigger" href="#all"><img src="img/denttilogo-tr-s.png" id="denttilogo"></a>
+        <a class="navbar-brand js-scroll-trigger" href="#body"><img src="img/denttilogo-tr-s.png" id="denttilogo"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -45,7 +45,7 @@
     <main role="main" class="container" id="all">
         <div class="starter-template">
             <h1 class="bigtitle title">
-                Yksityinen hammashoito&shy;asema Helsingin keskustassa
+                Yksityinen <div class="hyph">hammashoitoasema</div> Helsingin keskustassa
             </h1>
             <div id="firstimage"></div>
             <p class="lead nohyph">Dent­ti on yk­si­tyi­nen ham­mas­hoi­toa­se­ma Mi­kon­ka­dul­la. Tar­joam­me hen­ki­lö­koh­tais­ta, laa­du­kas­ta ham­mas­hoi­toa viih­tyi­sis­sä ti­lois­sa.
@@ -62,35 +62,41 @@
                 Vas­taa­no­tol­lam­me on Ce­rec-lait­teis­to, jol­la voi­daan val­mis­taa kes­tä­vät ke­raa­mi­set täyt­teet kor­vaa­maan van­ho­ja ku­lu­nei­ta tai loh­keil­lei­ta paik­ko­ja.
             </p>
           </div>
-          <div class="service-section" id="en­nal­taeh­kaisy">
+          <div class="service-section" id="en­nal­taeh­kaisy" onclick="highlightService('#palvelumme-intro')">
             <h1>Ennaltaehkäisy</h1>
             <p class="lead nohyph services">Suun sai­rauk­sien tor­jun­nas­sa tär­kein­tä on nii­den en­nal­taeh­käi­sy. Riit­tä­vä ko­ti­hoi­to on täs­sä mer­kit­tä­vää, mut­ta pal­jon voi­daan teh­dä myös vas­taa­no­tol­la.
                 Sään­nöl­li­set tar­kas­tuk­set ja tar­vit­taes­sa rönt­gen­tut­ki­muk­set aut­ta­vat huo­maa­maan reiät ja ham­mas­ki­ven ajois­sa, jol­loin hoi­don tar­ve py­syy pie­ne­nä. Fluo­ri­kä­sit­te­lyil­lä voi­daan vah­vis­taa kiil­let­tä ja eh­käis­tä rei­kiin­ty­mis­tä. Ham­mas­pin­to­jen sään­nöl­li­sel­lä puh­dis­tuk­sel­la pi­de­tään ike­net ter­vei­nä.
                 Den­tis­sä eh­käi­se­vää ham­mas­hoi­toa te­ke­vät yh­teis­työs­sä oma ham­mas­lää­kä­ri­si ja suu­hy­gie­nis­ti­si.
             </p>
         </div>
-        <div class="row text-center text-lg-left">
-            <div class="col-lg-3 col-md-4 col-6">
+        <div class="row text-center">
+            <div class="col-md-6 col-lg-4">
                 <figure class="figure">
                     <div class="caption">
-                        <p onclick="highlightService('#en­nal­taeh­kaisy')">Ehkäisevä hoito</p>
-                        <p>Ohjeita kotihoitoon</p>
-                        <p>Suuhygienisti</p>
-                        <p>Esteettinen hoito</p>
-                        <p>Tarkastukset ja röntgen</p>
-                        <p>Paikkaushoidot ja Cerec-täytteet</p>
+                        <p class="lead" onclick="highlightService('#en­nal­taeh­kaisy')">Ehkäisevä hoito</p>
+                        <p class="lead">Ohjeita kotihoitoon</p>
+                        <p class="lead">Suuhygienisti</p>
+                        <p class="lead">Esteettinen hoito</p>
                     </div>
                 </figure>
             </div>
-            <div class="col-lg-3 col-md-4 col-6">
+            <div class="col-md-6 col-lg-4">
                 <figure class="figure">
                     <div class="caption">
-                        <p>Juurihoito</p>
-                        <p>Iensairaudet</p>
-                        <p>Proteettinen hoito</p>
-                        <p>Kirurgiset hoidot ja implantit</p>
-                        <p>Kuluneen purennan hoito</p>
-                        <p>Bruksismi - hampaiden narskuttelu</p>
+                        <p class="lead">Tarkastukset ja röntgen</p>
+                        <p class="lead">Paikkaushoidot ja Cerec-täytteet</p>
+                        <p class="lead">Juurihoito</p>
+                        <p class="lead">Iensairaudet</p>
+                    </div>
+                </figure>
+            </div>
+            <div class="col-md-12 col-lg-4">
+                <figure class="figure">
+                    <div class="caption">
+                        <p class="lead">Proteettinen hoito</p>
+                        <p class="lead">Kirurgiset hoidot ja implantit</p>
+                        <p class="lead">Kuluneen purennan hoito</p>
+                        <p class="lead">Bruksismi - hampaiden narskuttelu</p>
                     </div>
                 </figure>
             </div>
