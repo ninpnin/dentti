@@ -20,10 +20,10 @@ function highlightService(a) {
 	console.log(a);
 	$('.service-section').each(function () {
 		console.log($(this));
-	    $(this).hide(); //log every element found to console output
+	    $(this).hide("slow"); //log every element found to console output
 	});
 
-	$(a).show();
+	$(a).slideDown();//('slide', {direction: 'left'}, 1400);
 }
 
 $( document ).ready(function() {
