@@ -39,8 +39,8 @@ body {
 
 #teddyimage {
   width: 100%;
-  min-height: 300px;
-  max-height: 300px;
+  min-height: 450px;
+  max-height: 450px;
   background-image: url("../img/nalle-odottaa.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -57,7 +57,7 @@ body {
   width: 100%;
   min-height: 400px;
   max-height: 500px;
-  background-image: url("../img/kartta.png");
+  background-image: url("../img/kartta2.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 60% 30%;
