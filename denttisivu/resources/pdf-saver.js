@@ -14,3 +14,18 @@ function downloadPrices() {
 	  	setTimeout(function() { convertTable(); } , 300);
 	}
 }
+
+function highlightService(a) {
+	console.log("view service section");
+	console.log(a);
+	$('.service-section').each(function () {
+		console.log($(this));
+	    $(this).hide(); //log every element found to console output
+	});
+
+	$(a).show();
+}
+
+$( document ).ready(function() {
+    highlightService("#palvelumme-intro");
+});
