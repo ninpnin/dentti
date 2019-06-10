@@ -13,7 +13,6 @@ body {
 
 #all {
   background: linear-gradient(#FFFFFF, #fafdfb);
-  padding-bottom: 1rem;
   padding-top: 1rem;
 }
 
@@ -114,4 +113,9 @@ body {
 .navbar
 {
   font-size: 17pt;
+}
+
+#servicelinks p:hover {
+  color: gray;
+  text-decoration: underline;
 }
