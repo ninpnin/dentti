@@ -11,6 +11,12 @@ body {
 	max-width: 700px;
 }
 
+#all {
+  background: linear-gradient(#FFFFFF, #fafdfb);
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
 #firstimage {
   width: 100%;
   min-height: 450px;
