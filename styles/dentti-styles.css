@@ -137,6 +137,11 @@ body {
   font-size: 17pt;
 }
 
+.contactform {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
 #servicelinks p {
   text-decoration: underline;
 }
