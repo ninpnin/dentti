@@ -67,6 +67,12 @@ body {
 
 }
 
+@media only screen and (max-width: 1081px) {
+    #teddyimage {
+      background-image: url("../img/hammasharja2.jpg");
+    }
+}
+
 #mapimage {
   width: 100%;
   min-height: 400px;
