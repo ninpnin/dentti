@@ -31,7 +31,7 @@ body {
 
 #firstimage {
   width: 100%;
-  min-height: 450px;
+  min-height: 50vh;
   max-height: 100vw;
   background-image: url("../img/odhuone-laaja-crop.jpg");
   background-size: cover;
