@@ -91,6 +91,7 @@ body {
 #pdflink:hover {
   color: gray;
 }
+
 #denttilogo {
 	max-width:150px;
 }
@@ -129,7 +130,10 @@ body {
   font-size: 17pt;
 }
 
+#servicelinks p {
+  text-decoration: underline;
+}
 #servicelinks p:hover {
   color: gray;
-  text-decoration: underline;
+  text-decoration: none;
 }
