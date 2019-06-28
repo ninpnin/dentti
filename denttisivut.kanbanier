@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<b v="1" n="EpgqU6UIQWSDDygFLy+XrQ">
+	<r>
+		<f d1="0.0" d2="0.0" id="8axmbLGpTlydTEGZYaTZlw" i="0.0" t="All" d="583427725048.0" d0="0.0">
+			<t>All</t>
+		</f>
+	</r>
+	<c>
+		<f d1="0.0" d2="0.0" id="MjiTrwCOQfea3GQVG0xG+A" i="0.0" t="To do" d="583427725048.0" d0="0.0">
+			<t>To do</t>
+		</f>
+		<f d1="583428082131.0" d2="0.0" id="czjdM6bUTx+PgBkzOn5vzQ" i="0.0" t="Programming" d="583427725048.0" d0="583428082131.0">
+			<t>Programming</t>
+		</f>
+		<f d1="0.0" d2="0.0" id="0XFRBXFNTBSumFzTuHzuPA" i="583428037775.0" t="Code Review" d="583428037775.0" d0="583428051715.0">
+			<t>Code Review</t>
+		</f>
+		<f d1="0.0" d2="0.0" id="TRHTs7rGSkiMuWx7fzNFxw" i="0.0" t="Done" d="583427725048.0" d0="583428065535.0">
+			<t>Done</t>
+		</f>
+	</c>
+	<i c="MjiTrwCOQfea3GQVG0xG+A" r="8axmbLGpTlydTEGZYaTZlw">
+		<c l="purple" d1="583428414466.0" d2="583428425602.0" id="4swVxvkdRLiu0efW/+YQvA" i="583428375951.0" d5="0.0" t="Refine PDF export" d3="0.0" d4="0.0" d="583428375951.0" d0="583428414466.0">
+			<s>Refine PDF export</s>
+			<c>Refine the looks of the exported price PDF. Add images and text.</c>
+		</c>
+		<c l="green" d1="583428455322.0" d2="583428154537.0" id="vXXUXs3PQa6/Y1C0rMwNUg" i="583428085436.0" d5="0.0" t="Add circle-shaped links" d3="0.0" d4="0.0" d="583428085436.0" d0="583428108723.0">
+			<s>Add circle-shaped links</s>
+			<c>Create circle-shaped links on the front page and locate them nicely.</c>
+		</c>
+		<c l="blue" d1="583428333352.0" d2="583428004767.0" id="x32PsBpvQaeGPTLfhw+olg" i="583427977427.0" d5="0.0" t="Read prices from CSV file" d3="0.0" d4="0.0" d="583427977427.0" d0="583428005837.0">
+			<s>Read prices from CSV file</s>
+			<c>Have a CSV file on the server that is read when page loads. The price table is dynamically filled with this data.</c>
+		</c>
+		<c l="green" d1="583428219084.0" d2="583428162395.0" id="GTaJaGDOSSaauVpthIsf/Q" i="0.0" d5="0.0" t="Use OpenLayers maps" d3="583428169952.0" d4="0.0" d="583427725048.0" d0="583428219084.0">
+			<s>Use OpenLayers maps</s>
+			<c>Replace the placeholder map image with an interactive map using the OpenLayers library.</c>
+		</c>
+		<c d1="0.0" d2="0.0" id="+rje4AdESEirDXTu5zFhMA" i="583427904347.0" d5="0.0" t="New Task" d3="0.0" d4="0.0" d="583427904347.0" d0="0.0">
+			<s>New Task</s>
+		</c>
+	</i>
+	<i c="TRHTs7rGSkiMuWx7fzNFxw" r="8axmbLGpTlydTEGZYaTZlw">
+		<c l="red" d1="0.0" d2="583428029919.0" id="lZHBt10/SOiKksaANuZfjw" i="583428015740.0" d5="0.0" t="Implement basic functionality" d3="0.0" d4="0.0" d="583428015739.0" d0="583428030435.0">
+			<s>Implement basic functionality</s>
+		</c>
+		<c l="purple" d1="583428372939.0" d2="583428372283.0" id="7Ar1i0LTR3anETj9V0FjXA" i="583428335359.0" d5="0.0" t="Price table PDF export" d3="0.0" d4="0.0" d="583428335359.0" d0="583428372938.0">
+			<s>Price table PDF export</s>
+			<c>Add a button that exports the price list as a PDF file.</c>
+		</c>
+	</i>
+	<h t="583427725071.0" d="GTaJaGDOSSaauVpthIsf/Q" c="MjiTrwCOQfea3GQVG0xG+A" r="8axmbLGpTlydTEGZYaTZlw"/>
+	<h t="583427904347.0" d="+rje4AdESEirDXTu5zFhMA" c="MjiTrwCOQfea3GQVG0xG+A" r="8axmbLGpTlydTEGZYaTZlw"/>
+	<h t="583427968769.0" d="GTaJaGDOSSaauVpthIsf/Q" c="czjdM6bUTx+PgBkzOn5vzQ" r="8axmbLGpTlydTEGZYaTZlw"/>
+	<h t="583427973860.0" d="GTaJaGDOSSaauVpthIsf/Q" c="MjiTrwCOQfea3GQVG0xG+A" r="8axmbLGpTlydTEGZYaTZlw"/>
+	<h t="583427977427.0" d="x32PsBpvQaeGPTLfhw+olg" c="MjiTrwCOQfea3GQVG0xG+A" r="8axmbLGpTlydTEGZYaTZlw"/>
+	<h t="583428015740.0" d="lZHBt10/SOiKksaANuZfjw" c="MjiTrwCOQfea3GQVG0xG+A" r="8axmbLGpTlydTEGZYaTZlw"/>
+	<h t="583428031958.0" d="lZHBt10/SOiKksaANuZfjw" c="TRHTs7rGSkiMuWx7fzNFxw" r="8axmbLGpTlydTEGZYaTZlw"/>
+	<h t="583428085436.0" d="vXXUXs3PQa6/Y1C0rMwNUg" c="MjiTrwCOQfea3GQVG0xG+A" r="8axmbLGpTlydTEGZYaTZlw"/>
+	<h t="583428335359.0" d="7Ar1i0LTR3anETj9V0FjXA" c="MjiTrwCOQfea3GQVG0xG+A" r="8axmbLGpTlydTEGZYaTZlw"/>
+	<h t="583428374497.0" d="7Ar1i0LTR3anETj9V0FjXA" c="TRHTs7rGSkiMuWx7fzNFxw" r="8axmbLGpTlydTEGZYaTZlw"/>
+	<h t="583428375951.0" d="4swVxvkdRLiu0efW/+YQvA" c="MjiTrwCOQfea3GQVG0xG+A" r="8axmbLGpTlydTEGZYaTZlw"/>
+	<t sct="true" d="0.0" slt="true"/>
+</b>
