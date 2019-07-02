@@ -1,7 +1,7 @@
 // A function for rotating the images in the services section
 function switchImage() {
-	var img1 = "img/nalle-odottaa.jpg"
-	var img2 = "img/hammasharja.jpg"
+	var img1 = "img/nalle-odottaa.png"
+	var img2 = "img/hammasharja.png"
 	var img3 = "img/cerec.jpg"
 	var img4 = "img/hammasharja2.jpg"
 
