@@ -13,3 +13,15 @@ $("body").attr({
   }).scrollspy({
     offset: 150
   });
+
+
+
+function updatePrices() {
+	jQuery.get('mock-prices.csv', function(data) {
+		console.log(data);
+		dataObject = $.csv.toObjects(data);
+		console.log(dataObject);
+	});
+}
+
+updatePrices();
