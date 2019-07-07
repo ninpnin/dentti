@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<b v="1" n="mn0HWIQXQ4iLHrchx5pEaw">
+<b v="1" n="VIxu/VhdT5GIVWbpKciT3g">
 	<r>
 		<f d1="0.0" d2="0.0" id="8axmbLGpTlydTEGZYaTZlw" i="0.0" t="All" d="583427725048.0" d0="0.0">
 			<t>All</t>
@@ -23,6 +23,10 @@
 		</f>
 	</c>
 	<i c="EpgqU6UIQWSDDygFLy+XrQ" r="8axmbLGpTlydTEGZYaTZlw">
+		<c l="blue" d1="584218492032.0" d2="584218496127.0" id="mn0HWIQXQ4iLHrchx5pEaw" i="584218423711.0" d5="0.0" t="Make the contact form functional" d3="0.0" d4="0.0" d="584218423711.0" d0="584218492032.0">
+			<s>Make the contact form functional</s>
+			<c>The elements of the contact form already exist: figure out how it used to work in the previous implementation and make it work again.</c>
+		</c>
 		<c l="blue" d1="584218264515.0" d2="584218263366.0" id="unp/a4RPTnW9zGmyDueyzQ" i="584218217232.0" d5="0.0" t="Add customer info PDF" d3="0.0" d4="0.0" d="584218217232.0" d0="584218264515.0">
 			<s>Add customer info PDF</s>
 			<c>Add a link that points to the customer info PDF. Add the PDF to the project.</c>
@@ -35,24 +39,25 @@
 			<s>Refine PDF export</s>
 			<c>Refine the looks of the exported price PDF. Add images and text.</c>
 		</c>
-		<c l="blue" d1="583428333352.0" d2="583428004767.0" id="x32PsBpvQaeGPTLfhw+olg" i="583427977427.0" d5="0.0" t="Read prices from CSV file" d3="0.0" d4="0.0" d="583427977427.0" d0="583428005837.0">
-			<s>Read prices from CSV file</s>
-			<c>Have a CSV file on the server that is read when page loads. The price table is dynamically filled with this data.</c>
-		</c>
 	</i>
 	<i c="MjiTrwCOQfea3GQVG0xG+A" r="8axmbLGpTlydTEGZYaTZlw">
 		<c l="green" d1="583428455322.0" d2="583428154537.0" id="vXXUXs3PQa6/Y1C0rMwNUg" i="583428085436.0" d5="0.0" t="Add circle-shaped links" d3="0.0" d4="0.0" d="583428085436.0" d0="583428108723.0">
 			<s>Add circle-shaped links</s>
 			<c>Create circle-shaped links on the front page and locate them nicely.</c>
 		</c>
-		<c d1="0.0" d2="0.0" id="+rje4AdESEirDXTu5zFhMA" i="583427904347.0" d5="0.0" t="New Task" d3="0.0" d4="0.0" d="583427904347.0" d0="0.0">
-			<s>New Task</s>
-		</c>
-	</i>
-	<i c="czjdM6bUTx+PgBkzOn5vzQ" r="8axmbLGpTlydTEGZYaTZlw">
 		<c l="green" d1="583428219084.0" d2="583428162395.0" id="GTaJaGDOSSaauVpthIsf/Q" i="0.0" d5="0.0" t="Use OpenLayers maps" d3="583428169952.0" d4="0.0" d="583427725048.0" d0="583428219084.0">
 			<s>Use OpenLayers maps</s>
 			<c>Replace the placeholder map image with an interactive map using the OpenLayers library.</c>
+		</c>
+	</i>
+	<i c="czjdM6bUTx+PgBkzOn5vzQ" r="8axmbLGpTlydTEGZYaTZlw">
+		<c l="blue" d1="584220286970.0" d2="584220286025.0" id="YDjuNOa0SBC8ixSsUW2Xsw" i="584220235804.0" d5="0.0" t="Add support for multilingualism" d3="0.0" d4="0.0" d="584220235804.0" d0="584220286970.0">
+			<s>Add support for multilingualism</s>
+			<c>Decide how to do multiple languages and implement it.</c>
+		</c>
+		<c l="blue" d1="583428333352.0" d2="583428004767.0" id="x32PsBpvQaeGPTLfhw+olg" i="583427977427.0" d5="0.0" t="Read prices from CSV file" d3="0.0" d4="0.0" d="583427977427.0" d0="583428005837.0">
+			<s>Read prices from CSV file</s>
+			<c>Have a CSV file on the server that is read when page loads. The price table is dynamically filled with this data.</c>
 		</c>
 	</i>
 	<i c="TRHTs7rGSkiMuWx7fzNFxw" r="8axmbLGpTlydTEGZYaTZlw">
@@ -65,7 +70,6 @@
 		</c>
 	</i>
 	<h t="583427725071.0" d="GTaJaGDOSSaauVpthIsf/Q" c="MjiTrwCOQfea3GQVG0xG+A" r="8axmbLGpTlydTEGZYaTZlw"/>
-	<h t="583427904347.0" d="+rje4AdESEirDXTu5zFhMA" c="MjiTrwCOQfea3GQVG0xG+A" r="8axmbLGpTlydTEGZYaTZlw"/>
 	<h t="583427968769.0" d="GTaJaGDOSSaauVpthIsf/Q" c="czjdM6bUTx+PgBkzOn5vzQ" r="8axmbLGpTlydTEGZYaTZlw"/>
 	<h t="583427973860.0" d="GTaJaGDOSSaauVpthIsf/Q" c="MjiTrwCOQfea3GQVG0xG+A" r="8axmbLGpTlydTEGZYaTZlw"/>
 	<h t="583427977427.0" d="x32PsBpvQaeGPTLfhw+olg" c="MjiTrwCOQfea3GQVG0xG+A" r="8axmbLGpTlydTEGZYaTZlw"/>
@@ -80,5 +84,10 @@
 	<h t="584217999539.0" d="GTaJaGDOSSaauVpthIsf/Q" c="czjdM6bUTx+PgBkzOn5vzQ" r="8axmbLGpTlydTEGZYaTZlw"/>
 	<h t="584218144820.0" d="C9WAkWspSQGSJvRtuOPM5g" c="EpgqU6UIQWSDDygFLy+XrQ" r="8axmbLGpTlydTEGZYaTZlw"/>
 	<h t="584218217232.0" d="unp/a4RPTnW9zGmyDueyzQ" c="EpgqU6UIQWSDDygFLy+XrQ" r="8axmbLGpTlydTEGZYaTZlw"/>
+	<h t="584218423711.0" d="mn0HWIQXQ4iLHrchx5pEaw" c="EpgqU6UIQWSDDygFLy+XrQ" r="8axmbLGpTlydTEGZYaTZlw"/>
+	<h t="584220235804.0" d="YDjuNOa0SBC8ixSsUW2Xsw" c="EpgqU6UIQWSDDygFLy+XrQ" r="8axmbLGpTlydTEGZYaTZlw"/>
+	<h t="584220301712.0" d="YDjuNOa0SBC8ixSsUW2Xsw" c="czjdM6bUTx+PgBkzOn5vzQ" r="8axmbLGpTlydTEGZYaTZlw"/>
+	<h t="584220306861.0" d="GTaJaGDOSSaauVpthIsf/Q" c="MjiTrwCOQfea3GQVG0xG+A" r="8axmbLGpTlydTEGZYaTZlw"/>
+	<h t="584220318259.0" d="x32PsBpvQaeGPTLfhw+olg" c="czjdM6bUTx+PgBkzOn5vzQ" r="8axmbLGpTlydTEGZYaTZlw"/>
 	<t sct="true" d="0.0" slt="true"/>
 </b>
