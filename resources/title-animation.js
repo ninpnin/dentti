@@ -4,6 +4,11 @@ $(document).ready(function() {
 
 $(document).ready(function() {
   animation();
+	jQuery.get('text/fin/intro-text.txt', function(data) {
+	console.log(data);
+	$("#intro-text").html(data);
+});
+
 }, 10);
 
 

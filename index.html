@@ -12,6 +12,10 @@
     <!-- Bootstrap core CSS
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
     <link rel="stylesheet" href="resources/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://openlayers.org/en/v5.3.0/css/ol.css" type="text/css">
+    <!-- The line below is only needed for old environments like Internet Explorer and Android 4.x -->
+    <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=requestAnimationFrame,Element.prototype.classList,URL"></script>
+
     <!-- Custom styles for this template -->
     <link href="styles/dentti-styles.css" rel="stylesheet">
 </head>
@@ -52,8 +56,7 @@
     <div id="firstimage"></div>
     <main role="main" class="container">
         <div class="starter-template">
-            <p class="lead nohyph">Dent­ti on yk­si­tyi­nen ham­mas­hoi­toa­se­ma Mi­kon­ka­dul­la. Tar­joam­me hen­ki­lö­koh­tais­ta, laa­du­kas­ta ham­mas­hoi­toa viih­tyi­sis­sä ti­lois­sa.
-                Hy­vä suun ter­veys ja hoi­de­tut ham­paat luo­vat poh­jan hy­väl­le yleis­ter­vey­del­le. Näil­tä si­vuil­ta löy­dät tie­toa sii­tä, mi­ten me voim­me aut­taa, kun oma ko­ti­hoi­to­si ei rii­tä.</p>
+            <p id="intro-text" class="lead nohyph"></p>
         </div>
     </main>
     <!---
@@ -274,7 +277,28 @@ Lä­het­teen saat vuo­si­tar­kas­tuk­sen yh­tey­des­sä ham­mas­lä�
                 Ajan pe­ru­mi­nen tu­lee teh­dä vii­meis­tään hoi­toa edel­tä­vä­nä ar­ki­päi­vä­nä ja 24 tun­tia en­nen va­rat­tua ai­kaa. Pe­ruu­tuk­sen voit teh­dä säh­kö­pos­tit­se hoi­to@dent­ti.fi tai soit­ta­mal­la lä­het­tä­mäl­lä teks­ti­vies­tin nu­me­roon 045 353 3498. Pe­ruut­ta­mat­to­mis­ta tai myö­häs­sä pe­ru­tuis­ta ajois­ta las­ku­tam­me ku­lui­na 39 eur / va­rat­tu 30 min. hoi­toai­ka.</p>
         </div>
     </main>
-    <div id="mapimage"></div>
+    <div id="map" style="height: 100px;"></div>
+    <script>
+      import Map;
+      import View from 'node_modules/ol/View.js';
+      import TileLayer from 'node_modules/ol/layer/Tile.js';
+      import OSM from 'node_modules/ol/source/OSM.js';
+
+
+      var map = new Map({
+        layers: [
+          new TileLayer({
+            source: new OSM()
+          })
+        ],
+        target: 'map',
+        view: new View({
+          center: [0, 0],
+          zoom: 2
+        })
+      });
+    </script>
+
     <main role="main" class="container" id="yhteystiedot">
         <div class="starter-template">
             <h1 id="yhteystiedot-h">
