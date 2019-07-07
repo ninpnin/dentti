@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<b v="1" n="C9WAkWspSQGSJvRtuOPM5g">
+<b v="1" n="mn0HWIQXQ4iLHrchx5pEaw">
 	<r>
 		<f d1="0.0" d2="0.0" id="8axmbLGpTlydTEGZYaTZlw" i="0.0" t="All" d="583427725048.0" d0="0.0">
 			<t>All</t>
@@ -23,6 +23,14 @@
 		</f>
 	</c>
 	<i c="EpgqU6UIQWSDDygFLy+XrQ" r="8axmbLGpTlydTEGZYaTZlw">
+		<c l="blue" d1="584218264515.0" d2="584218263366.0" id="unp/a4RPTnW9zGmyDueyzQ" i="584218217232.0" d5="0.0" t="Add customer info PDF" d3="0.0" d4="0.0" d="584218217232.0" d0="584218264515.0">
+			<s>Add customer info PDF</s>
+			<c>Add a link that points to the customer info PDF. Add the PDF to the project.</c>
+		</c>
+		<c l="red" d1="584218178270.0" d2="584218177608.0" id="C9WAkWspSQGSJvRtuOPM5g" i="584218144820.0" d5="0.0" t="Fix title bug" d3="0.0" d4="0.0" d="584218144820.0" d0="584218178270.0">
+			<s>Fix title bug</s>
+			<c>Fix the title in the headers to match the section we&apos;re currently looking at.</c>
+		</c>
 		<c l="purple" d1="583428414466.0" d2="583428425602.0" id="4swVxvkdRLiu0efW/+YQvA" i="583428375951.0" d5="0.0" t="Refine PDF export" d3="0.0" d4="0.0" d="583428375951.0" d0="583428414466.0">
 			<s>Refine PDF export</s>
 			<c>Refine the looks of the exported price PDF. Add images and text.</c>
@@ -37,12 +45,14 @@
 			<s>Add circle-shaped links</s>
 			<c>Create circle-shaped links on the front page and locate them nicely.</c>
 		</c>
+		<c d1="0.0" d2="0.0" id="+rje4AdESEirDXTu5zFhMA" i="583427904347.0" d5="0.0" t="New Task" d3="0.0" d4="0.0" d="583427904347.0" d0="0.0">
+			<s>New Task</s>
+		</c>
+	</i>
+	<i c="czjdM6bUTx+PgBkzOn5vzQ" r="8axmbLGpTlydTEGZYaTZlw">
 		<c l="green" d1="583428219084.0" d2="583428162395.0" id="GTaJaGDOSSaauVpthIsf/Q" i="0.0" d5="0.0" t="Use OpenLayers maps" d3="583428169952.0" d4="0.0" d="583427725048.0" d0="583428219084.0">
 			<s>Use OpenLayers maps</s>
 			<c>Replace the placeholder map image with an interactive map using the OpenLayers library.</c>
-		</c>
-		<c d1="0.0" d2="0.0" id="+rje4AdESEirDXTu5zFhMA" i="583427904347.0" d5="0.0" t="New Task" d3="0.0" d4="0.0" d="583427904347.0" d0="0.0">
-			<s>New Task</s>
 		</c>
 	</i>
 	<i c="TRHTs7rGSkiMuWx7fzNFxw" r="8axmbLGpTlydTEGZYaTZlw">
@@ -67,5 +77,8 @@
 	<h t="583428375951.0" d="4swVxvkdRLiu0efW/+YQvA" c="MjiTrwCOQfea3GQVG0xG+A" r="8axmbLGpTlydTEGZYaTZlw"/>
 	<h t="583428688795.0" d="4swVxvkdRLiu0efW/+YQvA" c="EpgqU6UIQWSDDygFLy+XrQ" r="8axmbLGpTlydTEGZYaTZlw"/>
 	<h t="583428695673.0" d="x32PsBpvQaeGPTLfhw+olg" c="EpgqU6UIQWSDDygFLy+XrQ" r="8axmbLGpTlydTEGZYaTZlw"/>
+	<h t="584217999539.0" d="GTaJaGDOSSaauVpthIsf/Q" c="czjdM6bUTx+PgBkzOn5vzQ" r="8axmbLGpTlydTEGZYaTZlw"/>
+	<h t="584218144820.0" d="C9WAkWspSQGSJvRtuOPM5g" c="EpgqU6UIQWSDDygFLy+XrQ" r="8axmbLGpTlydTEGZYaTZlw"/>
+	<h t="584218217232.0" d="unp/a4RPTnW9zGmyDueyzQ" c="EpgqU6UIQWSDDygFLy+XrQ" r="8axmbLGpTlydTEGZYaTZlw"/>
 	<t sct="true" d="0.0" slt="true"/>
 </b>
