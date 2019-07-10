@@ -22,10 +22,10 @@ function updatePrices() {
             //console.log(dataObject[i]["FIN"]);
 
             row ="<tr>\n";
-            row += "<td>" + dataObject[i]["FIN"]+ "</td>\n";
-            row += "<td>" + dataObject[i]["PRICE"]+ "</td>\n";
-            row += "<td>" +dataObject[i]["KELA"]+ "</td>\n";
-            row += "<td>" +dataObject[i]["DUE"]+ "</td>\n";
+            row += "<td>" + dataObject[i]["FIN"].trim() + "</td>\n";
+            row += "<td>" + dataObject[i]["PRICE"].trim() + "</td>\n";
+            row += "<td>" + dataObject[i]["KELA"].trim() + "</td>\n";
+            row += "<td>" + dataObject[i]["DUE"].trim() + "</td>\n";
             row += "</tr>";
 
             //console.log(row);
