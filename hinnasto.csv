@@ -1,3 +1,3 @@
-Toimenpide, Hinta, Kela-korvaus, Omavastuuosuus
-Tarkastus, 62.00, 15.50, 46.50
-Röntgenkuva pieni, 32.00, 6.00, 25.00
+FIN,ENG,SWE,PRICE,KELA,DUE
+Tarkastus,Examination,Examination,62.00,15.50,46.50
+Röntgenkuva pieni, Small X-Ray, Röntgen (Liten), 32.00, 6.00, 25.00

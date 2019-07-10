@@ -1,11 +1,6 @@
 console.log("LOAD PRICE LIST...");
 
-var csv = "../hinnasto.csv";
-var ex = "h1, h2\nmo,mo\nko,lo"
-var data = $.csv.toObjects(ex);
-
-console.log(data);
-console.log("DONE!");
+var filepath = "../hinnasto.csv";
 
 $("body").attr({
     "data-spy": "scroll",
@@ -17,7 +12,7 @@ $("body").attr({
 
 // Load prices to the HTML table from a CSV file
 function updatePrices() {
-	jQuery.get('mock-prices.csv', function(data) {
+	jQuery.get("hinnasto.csv", function(data) {
 		//console.log(data);
 		dataObject = $.csv.toObjects(data);
 		//console.log(dataObject);
