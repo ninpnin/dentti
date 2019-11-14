@@ -17,6 +17,14 @@
 
     <!-- Custom styles for this template -->
     <link href="styles/dentti-styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.1.1/css/ol.css" type="text/css">
+    <style>
+      .map {
+        height: 400px;
+        width: 100%;
+      }
+    </style>
+    <script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.1.1/build/ol.js"></script>
 </head>
 
 <body data-spy="scroll" data-offset="100px" data-target=".navbar" id="body">
@@ -56,6 +64,11 @@
     <main role="main" class="container">
         <div class="starter-template">
             <p id="intro-text" class="lead nohyph"></p>
+        </div>
+    </main>
+    <main role="main" class="container" id="pallot">
+        <div class="starter-template">
+            <!---PALLOJA-->
         </div>
     </main>
     <!---
@@ -259,27 +272,42 @@ Lä­het­teen saat vuo­si­tar­kas­tuk­sen yh­tey­des­sä ham­mas­lä�
                 Ajan pe­ru­mi­nen tu­lee teh­dä vii­meis­tään hoi­toa edel­tä­vä­nä ar­ki­päi­vä­nä ja 24 tun­tia en­nen va­rat­tua ai­kaa. Pe­ruu­tuk­sen voit teh­dä säh­kö­pos­tit­se hoi­to@dent­ti.fi tai soit­ta­mal­la lä­het­tä­mäl­lä teks­ti­vies­tin nu­me­roon 045 353 3498. Pe­ruut­ta­mat­to­mis­ta tai myö­häs­sä pe­ru­tuis­ta ajois­ta las­ku­tam­me ku­lui­na 39 eur / va­rat­tu 30 min. hoi­toai­ka.</p>
         </div>
     </main>
-    <div id="map" style="height: 100px;"></div>
-    <script>
-      import Map;
-      import View from 'node_modules/ol/View.js';
-      import TileLayer from 'node_modules/ol/layer/Tile.js';
-      import OSM from 'node_modules/ol/source/OSM.js';
-
-
-      var map = new Map({
+    <div id="map" class="map"></div>
+    <script type="text/javascript">
+      var map = new ol.Map({
+        target: 'map',
         layers: [
-          new TileLayer({
-            source: new OSM()
+          new ol.layer.Tile({
+            source: new ol.source.OSM()
           })
         ],
-        target: 'map',
-        view: new View({
-          center: [0, 0],
-          zoom: 2
-        })
+        view: new ol.View({
+          center: ol.proj.fromLonLat([24.9457241,60.1706629]),
+          zoom: 14
+        }),
+        interactions: ol.interaction.defaults({mouseWheelZoom:false}),
       });
-    </script>
+      //Adding a marker on the map
+      var marker = new ol.Feature({
+        geometry: new ol.geom.Point(
+          ol.proj.fromLonLat([24.9457241,60.1706629])
+        ),  // Cordinates of New York's Town Hall
+      });
+      marker.setStyle(new ol.style.Style({
+        image: new ol.style.Icon(({
+          anchor: [0.5, 1],
+            crossOrigin: 'anonymous',
+            src: 'img/pin-small.png'
+        }))
+    }));
+      var vectorSource = new ol.source.Vector({
+        features: [marker]
+      });
+      var markerVectorLayer = new ol.layer.Vector({
+        source: vectorSource,
+      });
+      map.addLayer(markerVectorLayer);
+      </script>
 
     <main role="main" class="container" id="yhteystiedot">
         <div class="starter-template">
