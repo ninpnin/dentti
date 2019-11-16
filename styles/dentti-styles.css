@@ -21,13 +21,25 @@ body {
   padding-bottom: 1rem;
 }
 
-.dot {
-  height: 250px;
-  width: 250px;
-  background: url("../img/odhuone_kapea.jpg");
-  border-radius: 50%;
+.dotsurround {
+
 }
 
+.dot {
+  height: 15vw;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15vw;
+  background-color: rgba(52,102,80,255);
+  border-radius: 50%;
+  display: inline-block;
+    display:table-cell;
+    color: white;
+
+  vertical-align: middle;
+
+
+}
 
 #firstimage {
   width: 100%;
