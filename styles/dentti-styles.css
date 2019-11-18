@@ -112,8 +112,16 @@ body {
 }
 
 #denttilogo {
-	max-width:150px;
+  max-width:200px;
 }
+
+@media only screen and (max-width: 1200px) {
+
+  #denttilogo {
+  	max-width:150px;
+  }
+}
+
 
 .nohyph {
   -webkit-hyphens: none;
