@@ -35,11 +35,21 @@ body {
   width: 200px;
   background-color: rgba(52,102,80,255);
   border-radius: 50%;
-  display:table-cell;
+  display: inline-block;
   color: white;
   vertical-align: middle;
+
 }
 
+.dotbox {
+  height: 100%;
+  display: grid;
+}
+
+.vertical-center > .text-center 
+{
+    flex-grow: 1;
+}
 @media only screen and (max-width: 700px) {
     .dot {
       height: 150px;
