@@ -18,12 +18,7 @@
     <!-- Custom styles for this template -->
     <link href="styles/dentti-styles.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.1.1/css/ol.css" type="text/css">
-    <style>
-      .map {
-        height: 400px;
-        width: 100%;
-      }
-    </style>
+
     <script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.1.1/build/ol.js"></script>
 </head>
 
@@ -51,6 +46,11 @@
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="#yhteystiedot-h">Yhteystiedot</a>
                 </li>
+               <!-- LANGUAGE SELECTION -->
+               <a class="nav-link js-scroll-trigger" style="display: none;" onclick="switchToFinnish();">fi</a>
+               <a class="nav-link js-scroll-trigger" onclick="switchToSwedish();">se</a>
+               <a class="nav-link js-scroll-trigger" onclick="switchToEnglish();">en</a>
+
             </ul>
         </div>
     </nav>
@@ -98,9 +98,9 @@
         </div>
     </main>
 -->
-    <main role="main" class="container" id="palvelumme">
-        <div class="starter-template" id="palvelumme-container">
-            <div class="service-section" id="palvelumme-intro">
+    <main role="main" class="container text-left" id="palvelumme">
+        <div class="starter-template text-left" id="palvelumme-container">
+            <div class="service-section text-left" id="palvelumme-intro">
                 <h1>Palvelumme</h1>
                 <p class="lead nohyph services">Saat meil­tä pe­rus­ham­mas­hoi­don li­säk­si ki­rur­gi­sen ja pro­teet­ti­sen hoi­don se­kä suu­hy­gie­nis­tin pal­ve­lut.
                     Myös di­gi­taa­li­set, ko­ko suun alueen rönt­gen­tut­ki­muk­set jär­jes­ty­vät no­peas­ti.
@@ -151,7 +151,7 @@ Lä­het­teen saat vuo­si­tar­kas­tuk­sen yh­tey­des­sä ham­mas­lä�
 
                 </p>
             </div>
-            <div id="servicelinks" class="row text-center">
+            <div id="servicelinks" class="row text-left">
                 <div class="col-md-6 col-lg-4">
                     <figure class="figure">
                         <div class="caption">
@@ -186,7 +186,7 @@ Lä­het­teen saat vuo­si­tar­kas­tuk­sen yh­tey­des­sä ham­mas­lä�
     </main>
     <div id="teddyimage"></div>
     <main role="main" class="container" id="henkilokunta">
-        <div class="starter-template">
+        <div class="text-left starter-template">
             <h1>Henkilökunta</h1>
             <p class="lead nohyph">Den­tis­sä Si­nua hoi­ta­vat ham­mas­lää­kä­rit An­ne Ha­ko­mä­ki, Ju­ha Hos­ka­ri, Yr­jö Kum­pu­la, Git­te Par­ma­nen, Ma­ri­ka Re­po ja Ca­ri­ta Åhlg­ren-Övers­ti, eri­kois­ham­mas­lää­kä­ri Kris­tii­na Rä­mö se­kä suu­hy­gie­nis­tit San­na Hä­tä­lä ja Lee­na Laurén.</p>
         </div>
@@ -244,12 +244,12 @@ Lä­het­teen saat vuo­si­tar­kas­tuk­sen yh­tey­des­sä ham­mas­lä�
         </div>
     </div>
     <main role="main" class="container" id="hinnasto">
-        <div class="starter-template">
+        <div class="text-left starter-template">
             <h1>
                 Hinnasto
             </h1>
             <p class="lead">Tässä ovat yleishammaslääkäriemme hinnat tavallisimmille hoitotoimenpiteille. Viereisestä linkistä voit ladata hinnaston myös PDF-muodossa.
-                Emme peri erillisiä toimisto-, käynti- tai palvelumaksuja. Maksutapana vastaanotollamme käyvät pankki- ja luottokortit sekä käteinen.
+                Emme peri erillisiä toimisto-, käynti- tai palvelumaksuja. Maksutapana vastaanotollamme käyvät pankki- ja luottokortit sekä käteinen. Lataa hinnasto PDF-muodossa <u class="custom-link" onclick="downloadPrices()">tästä</u>.
             </p>
             <div id="pricediv">
                 <table class="table hyph table-striped" id="pricetable">
@@ -266,17 +266,17 @@ Lä­het­teen saat vuo­si­tar­kas­tuk­sen yh­tey­des­sä ham­mas­lä�
                     </tbody>
                 </table>
             </div>
-            <p class="lead">Lataa hinnasto PDF-muodossa <u id="pdflink" onclick="downloadPrices()">tästä</u>.</p>
+            
         </div>
     </main>
     <div id="clockimage"></div>
     <main role="main" class="container" id="ajanvaraus">
-        <div class="starter-template">
+        <div class="text-left starter-template">
             <h1>
                 Ajanvaraus
             </h1>
             <p class="lead nohyph">Net­tia­jan­va­rauk­sen voit teh­dä it­se hel­pos­ti <u><a href="https://appointment.assiscare.com/#dentti/appointment">tästä linkistä</a></u>. Voit myös jät­tää meil­le yh­tey­de­not­to­pyyn­nön yh­teys­tie­dot-si­vul­la ole­val­la lo­mak­keel­la tai säh­kö­pos­til­la osoit­tee­seem­me hoi­to@dent­ti.fi.</p>
-            <p class="nohyph">Pu­he­lin­nu­me­rom­me on 045 353 3498. Jos em­me eh­di vas­taa­maan, niin soi­tam­me si­nul­le ta­kai­sin ja pu­he­lin­vas­taa­jam­me päi­vys­tää myös sil­loin, kun em­me ole pai­kal­la.
+            <p class="lead nohyph">Pu­he­lin­nu­me­rom­me on 045 353 3498. Jos em­me eh­di vas­taa­maan, niin soi­tam­me si­nul­le ta­kai­sin ja pu­he­lin­vas­taa­jam­me päi­vys­tää myös sil­loin, kun em­me ole pai­kal­la.
                 Kun va­raat ai­kaa suu­hy­gie­nis­til­le, niin huo­mioit­han, et­tä Ke­la-kor­vauk­sen saa­dak­se­si si­nul­la tu­lee ol­la voi­mas­sa ole­va (al­le 2v. van­ha) ham­mas­lää­kä­rin lä­he­te suu­hy­gie­nis­tin hoi­toon. Lä­het­teen saat vuo­si­tar­kas­tuk­sen yh­tey­des­sä ham­mas­lää­kä­ril­tä­si.
                 Jos si­nul­la on jo­tain ky­syt­tä­vää ajan­va­rauk­seen tai lä­het­tee­seen liit­tyen, voit lä­het­tää ky­sy­myk­se­si yh­teys­tie­dot-si­vul­la ole­val­la lo­mak­keel­la.
                 Ajan pe­ru­mi­nen tu­lee teh­dä vii­meis­tään hoi­toa edel­tä­vä­nä ar­ki­päi­vä­nä ja 24 tun­tia en­nen va­rat­tua ai­kaa. Pe­ruu­tuk­sen voit teh­dä säh­kö­pos­tit­se hoi­to@dent­ti.fi, soit­ta­mal­la tai lä­het­tä­mäl­lä teks­ti­vies­tin nu­me­roon 045 353 3498. Pe­ruut­ta­mat­to­mis­ta tai myö­häs­sä pe­ru­tuis­ta ajois­ta las­ku­tam­me ku­lui­na 39 eur / va­rat­tu 30 minuutin hoi­toai­ka.</p>
@@ -320,12 +320,12 @@ Lä­het­teen saat vuo­si­tar­kas­tuk­sen yh­tey­des­sä ham­mas­lä�
       </script>
 
     <main role="main" class="container" id="yhteystiedot">
-        <div class="starter-template">
+        <div class="text-left starter-template">
             <h1 id="yhteystiedot-h">
                 Yhteystiedot
             </h1>
             <p class="lead">Dent­tiin löy­dät hel­pos­ti niin jul­ki­sil­la kul­ku­vä­li­neil­lä, au­tol­la, pol­ku­pyö­räl­lä kuin kä­vel­len­kin. Kai­sa­nie­men­ka­dun puo­lel­ta on ti­loi­him­me es­tee­tön kul­ku. Ylio­pis­ton met­roa­se­ma se­kä rai­tio­vau­nu­lin­jo­jen 3,5,6,7,9 ja kaik­ki Rau­ta­tien­to­rin bus­si­py­sä­kit ovat hy­vin lä­hel­lä. Omal­la au­tol­la tu­li­joi­ta var­ten pai­koi­tus­ti­laa löy­tyy Kluu­vin, WTC:n ja Elie­lin park­ki­hal­leis­ta: eu­ro­park.fi tai au­to­park­ki.net.</p>
-            <div class="row text-center">
+            <div class="row text-left">
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                     <div class="row">
                         <br><br>
@@ -339,11 +339,6 @@ Lä­het­teen saat vuo­si­tar­kas­tuk­sen yh­tey­des­sä ham­mas­lä�
                             <br>
                             <p class="lead">AUKIOLOAJAT<br>ma-to 8.00 - 19.00<br>
                                 pe 8.00 - 15.00</p>
-                        </div>
-                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                            <br>
-                            <p class="lead">Voit ladata esitietolomakkeen<br>
-                                <a href="form.pdf">tästä linkistä</a>.</p>
                         </div>
                     </div>
                 </div>

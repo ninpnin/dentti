@@ -101,6 +101,11 @@ body {
     }
 }
 
+.map {
+  height: 50vh;
+  width: 100%;
+}
+      
 #mapimage {
   width: 100%;
   min-height: 55vh;
@@ -122,9 +127,19 @@ body {
   max-width: 100%;
 }
 
-#pdflink:hover {
+main a {
+  color: #212529;
+  text-decoration: underline;
+}
+
+a:hover {
   color: gray;
 }
+
+.custom-link:hover {
+  color: gray;
+}
+
 
 #denttilogo {
   max-width: 190px;
