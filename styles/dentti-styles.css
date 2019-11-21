@@ -50,7 +50,7 @@ body {
 {
     flex-grow: 1;
 }
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 1100px) {
     .dot {
       height: 150px;
       width: 150px;
@@ -105,7 +105,7 @@ body {
   height: 50vh;
   width: 100%;
 }
-      
+
 #mapimage {
   width: 100%;
   min-height: 55vh;
@@ -181,8 +181,19 @@ a:hover {
 
 .container {
   max-width: 900pt;
+  padding-top: 30px;
+  margin-top: -30px;
 }
 
+@media only screen and (max-width: 1000px) {
+
+  .container {
+    max-width: 900pt;
+    padding-top: 10px;
+    margin-top: -10px;
+  }
+
+}
 .navbar
 {
   font-size: 17pt;
