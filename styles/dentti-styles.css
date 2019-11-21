@@ -21,6 +21,10 @@ body {
   padding-bottom: 1rem;
 }
 
+h1 {
+  text-transform: uppercase;
+  color: rgba(52,102,80,255);
+}
 .dotsurround {
 
 }
@@ -194,6 +198,17 @@ a:hover {
   }
 
 }
+
+@media only screen and (max-width: 1000px) {
+
+  .map {
+    max-width: 900pt;
+    padding-top: 0px;
+    margin-top: 0px;
+  }
+
+}
+
 .navbar
 {
   font-size: 17pt;
