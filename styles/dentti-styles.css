@@ -43,13 +43,16 @@ h1 {
   height: 200px;
   margin: 20px;
   width: 200px;
-  background-color: rgba(52,102,80,255);
+  background: url("../img/pallo-tausta.jpg");/* rgba(52,102,80,255); */
+  background-size: 100%;
   border-radius: 50%;
   display: inline-block;
   color: white;
   vertical-align: middle;
-
-}
+  text-transform: uppercase;
+  box-shadow: -3px 3px 5px rgba(200,200,200,10), 3px -3px 5px rgba(200,200,200,10),
+  -3px -3px 5px rgba(200,200,200,10), 3px 3px 5px rgba(200,200,200,10);
+  }
 
 .dotbox {
   height: 100%;
@@ -135,6 +138,7 @@ h1 {
 
 #pricetable {
   max-width: 100%;
+  overflow: hidden;
 }
 
 main a {
