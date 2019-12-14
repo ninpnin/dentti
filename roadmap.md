@@ -29,6 +29,8 @@
   - [ ] Tekstit kunnolla
 
 - [ ] Varmista mobiiliresponsiivisuus
+  
+  - [ ] Taulukko vuotaa yli, tee jotain
 
 - [ ] Tee yhteydenottolomakkeesta toiminnallinen
   
