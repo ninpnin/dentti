@@ -32,7 +32,7 @@
         <div class="collapse navbar-collapse" id="navbarsExampleDefault">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#palvelumme">Palvelumme</a>
+                    <a class="nav-link js-scroll-trigger" href="#pallot">Palvelumme</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="#henkilokunta">Henkilökunta</a>
@@ -41,15 +41,15 @@
                     <a class="nav-link js-scroll-trigger" href="#hinnasto">Hinnasto</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#ajanvaraus">Ajanvaraus</a>
+                    <a class="nav-link js-scroll-trigger" href="#clockimage">Ajanvaraus</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="#map">Yhteystiedot</a>
                 </li>
                <!-- LANGUAGE SELECTION -->
-               <a class="nav-link js-scroll-trigger" style="display: none;" onclick="switchToFinnish();">fi</a>
-               <a class="nav-link js-scroll-trigger" onclick="switchToSwedish();">se</a>
-               <a class="nav-link js-scroll-trigger" onclick="switchToEnglish();">en</a>
+               <a class="nav-link js-scroll-trigger" style="display: none;" onclick="switchToFinnish();">FI</a>
+               <a class="nav-link js-scroll-trigger" onclick="switchToSwedish();">SE</a>
+               <a class="nav-link js-scroll-trigger" onclick="switchToEnglish();">EN</a>
 
             </ul>
         </div>
@@ -60,6 +60,22 @@
                 <p id="intro-text" class="lead nohyph"></p>
             </div>
         </main> -->
+    <main role="main" class="container">
+    <div class="" id="big-title">
+        <h1 class="bigtitle title">
+            <div class="manual-hyph">Hammashoito&shy;asemasi Mikonkadulla</div>
+        </h1>
+        
+
+    </div>
+    <p class="lead nohyph ">
+
+Dent­ti on yk­si­tyi­nen ham­mas­hoi­toa­se­ma Mi­kon­ka­dul­la. Tar­joam­me hen­ki­lö­koh­tais­ta, laa­du­kas­ta ham­mas­hoi­toa viih­tyi­sis­sä ti­lois­sa.</p>
+<p class="lead nohyph">
+Hy­vä suun ter­veys ja hoi­de­tut ham­paat luo­vat poh­jan hy­väl­le yleis­ter­vey­del­le. Näil­tä si­vuil­ta löy­dät tie­toa sii­tä, mi­ten me voim­me aut­taa, kun oma ko­ti­hoi­to­si ei rii­tä.
+
+        </p>
+    </main>
     <main role="main" class="container" id="pallot">
         <div class="starter-template" style="">
             <div class="row text-center">
@@ -299,7 +315,7 @@ Lä­het­teen saat vuo­si­tar­kas­tuk­sen yh­tey­des­sä ham­mas­lä�
             <h1>
                 Ajanvaraus
             </h1>
-            <p class="lead nohyph">Net­tia­jan­va­rauk­sen voit teh­dä it­se hel­pos­ti <u><a href="https://appointment.assiscare.com/#dentti/appointment">tästä linkistä</a></u>. Voit myös jät­tää meil­le yh­tey­de­not­to­pyyn­nön yh­teys­tie­dot-si­vul­la ole­val­la lo­mak­keel­la tai säh­kö­pos­til­la osoit­tee­seem­me hoi­to@dent­ti.fi.</p>
+            <p class="lead nohyph">Net­tia­jan­va­rauk­sen voit teh­dä it­se hel­pos­ti <u><a href="https://appointment.assiscare.com/#dentti/appointment">tästä linkistä</a></u>. Voit myös jät­tää meil­le yh­tey­de­not­to­pyyn­nön yh­teys­tie­dot-si­vul­la ole­val­la lo­mak­keel­la tai säh­kö­pos­til­la osoit­tee­seem­me hoi­to@dent­ti.fi. Voit tulostaa esitietolomakkeen <u><a href="form.pdf">tästä</a></u>.</p>
             <p class="lead nohyph">Pu­he­lin­nu­me­rom­me on 045 353 3498. Jos em­me eh­di vas­taa­maan, niin soi­tam­me si­nul­le ta­kai­sin ja pu­he­lin­vas­taa­jam­me päi­vys­tää myös sil­loin, kun em­me ole pai­kal­la.
                 Kun va­raat ai­kaa suu­hy­gie­nis­til­le, niin huo­mioit­han, et­tä Ke­la-kor­vauk­sen saa­dak­se­si si­nul­la tu­lee ol­la voi­mas­sa ole­va (al­le 2v. van­ha) ham­mas­lää­kä­rin lä­he­te suu­hy­gie­nis­tin hoi­toon. Lä­het­teen saat vuo­si­tar­kas­tuk­sen yh­tey­des­sä ham­mas­lää­kä­ril­tä­si.
                 Jos si­nul­la on jo­tain ky­syt­tä­vää ajan­va­rauk­seen tai lä­het­tee­seen liit­tyen, voit lä­het­tää ky­sy­myk­se­si yh­teys­tie­dot-si­vul­la ole­val­la lo­mak­keel­la.
@@ -373,6 +389,15 @@ Lä­het­teen saat vuo­si­tar­kas­tuk­sen yh­tey­des­sä ham­mas­lä�
                         <input type="text" id="form1" class="form-control contactform" placeholder="Nimi*">
                         <input type="text" id="form2" class="form-control contactform" placeholder="Sähköpostiosoite*">
                         <input type="text" id="form3" class="form-control contactform" placeholder="Puhelinnumero">
+                         <div class="dropdown">
+                      <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                        Asiani koskee...
+                      </button>
+                      <div class="dropdown-menu">
+                        <a class="dropdown-item" href="">Tsiigaa</a>
+                        <a class="dropdown-item" href="">dentti.fi</a>
+                      </div>
+                        </div> 
                         <textarea name="Text1" cols="40" rows="4" placeholder="Viesti*" class="form-control contactform"></textarea>
                         <button class="form-control contactform">Lähetä</button>
                     </div>
@@ -385,7 +410,7 @@ Lä­het­teen saat vuo­si­tar­kas­tuk­sen yh­tey­des­sä ham­mas­lä�
         <div class="footer-copyright text-center py-3">
             Hammashoitoasema Dentti<br>
             Mikonkatu 13 A, 00100 Helsinki&nbsp;- Puh.&nbsp;045&nbsp;353&nbsp;3498<br>
-            ©2019 Copyright: Dentti Oy
+            ©2019 Copyright: Dentti Oy. <u>Tietosuojalauseke</u>
         </div>
     </footer>
     <!-- Bootstrap core JavaScript

@@ -11,6 +11,10 @@ body {
 	max-width: 700px;
 }
 
+.nav-item {
+  text-transform: uppercase;
+}
+
 #all {
   background: linear-gradient(#FFFFFF, #fafdfb);
   padding-top: 1rem;
@@ -18,10 +22,15 @@ body {
 }
 
 #big-title {
-  padding-bottom: 1rem;
+  padding-top: 3rem;
+  padding-bottom: -1rem;
+  
+  padding-right: 1rem;
+  text-transform: uppercase;
+  color: rgba(52,102,80,255);
 }
 
-h1 {
+.container h1 {
   text-transform: uppercase;
   color: rgba(52,102,80,255);
 }
@@ -66,7 +75,7 @@ h1 {
 }
 
 .dotinside {
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 
 
