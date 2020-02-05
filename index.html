@@ -14,25 +14,22 @@
     <link rel="stylesheet" href="https://openlayers.org/en/v5.3.0/css/ol.css" type="text/css">
     <!-- The line below is only needed for old environments like Internet Explorer and Android 4.x -->
     <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=requestAnimationFrame,Element.prototype.classList,URL"></script>
-
     <!-- Custom styles for this template -->
     <link href="styles/dentti-styles.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.1.1/css/ol.css" type="text/css">
-
     <script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.1.1/build/ol.js"></script>
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="10" id="body">
     <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top align-bottom" id="mainNav">
         <a class="navbar-brand js-scroll-trigger" href="#body"><img src="img/denttilogo-tr-s.png" id="denttilogo"></a>
-
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarsExampleDefault">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#pallot">Palvelumme</a>
+                    <a class="nav-link js-scroll-trigger" href="#teddyimage">Palvelumme</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="#henkilokunta">Henkilökunta</a>
@@ -46,34 +43,29 @@
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="#map">Yhteystiedot</a>
                 </li>
-               <!-- LANGUAGE SELECTION -->
-               <a class="nav-link js-scroll-trigger" style="display: none;" onclick="switchToFinnish();">FI</a>
-               <a class="nav-link js-scroll-trigger" onclick="switchToSwedish();">SE</a>
-               <a class="nav-link js-scroll-trigger" onclick="switchToEnglish();">EN</a>
-
+                <!-- LANGUAGE SELECTION -->
+                <a class="nav-link js-scroll-trigger" style="display: none;" onclick="switchToFinnish();">FI</a>
+                <a class="nav-link js-scroll-trigger" onclick="switchToSwedish();">SE</a>
+                <a class="nav-link js-scroll-trigger" onclick="switchToEnglish();">EN</a>
             </ul>
         </div>
     </nav>
     <div id="firstimage"></div>
-<!--        <main role="main" class="container">
+    <!--        <main role="main" class="container">
             <div class="starter-template">
                 <p id="intro-text" class="lead nohyph"></p>
             </div>
         </main> -->
     <main role="main" class="container">
-    <div class="" id="big-title">
-        <h1 class="bigtitle title">
-            <div class="manual-hyph">Hammashoito&shy;asemasi Mikonkadulla</div>
-        </h1>
-        
-
-    </div>
-    <p class="lead nohyph ">
-
-Dent­ti on yk­si­tyi­nen ham­mas­hoi­toa­se­ma Mi­kon­ka­dul­la. Tar­joam­me hen­ki­lö­koh­tais­ta, laa­du­kas­ta ham­mas­hoi­toa viih­tyi­sis­sä ti­lois­sa.</p>
-<p class="lead nohyph">
-Hy­vä suun ter­veys ja hoi­de­tut ham­paat luo­vat poh­jan hy­väl­le yleis­ter­vey­del­le. Näil­tä si­vuil­ta löy­dät tie­toa sii­tä, mi­ten me voim­me aut­taa, kun oma ko­ti­hoi­to­si ei rii­tä.
-
+        <div class="" id="big-title">
+            <h1 class="bigtitle title">
+                <div class="manual-hyph">Hammashoito&shy;asemasi Mikonkadulla</div>
+            </h1>
+        </div>
+        <p class="lead nohyph ">
+            Dent­ti on yk­si­tyi­nen ham­mas­hoi­toa­se­ma Mi­kon­ka­dul­la. Tar­joam­me hen­ki­lö­koh­tais­ta, laa­du­kas­ta ham­mas­hoi­toa viih­tyi­sis­sä ti­lois­sa.</p>
+        <p class="lead nohyph">
+            Hy­vä suun ter­veys ja hoi­de­tut ham­paat luo­vat poh­jan hy­väl­le yleis­ter­vey­del­le. Näil­tä si­vuil­ta löy­dät tie­toa sii­tä, mi­ten me voim­me aut­taa, kun oma ko­ti­hoi­to­si ei rii­tä.
         </p>
     </main>
     <main role="main" class="container" id="pallot">
@@ -81,12 +73,13 @@ Hy­vä suun ter­veys ja hoi­de­tut ham­paat luo­vat poh­jan hy­väl­le 
             <div class="row text-center">
                 <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 justify-content-center">
                     <div class="d-flex justify-content-center">
-                    	<div class="dot justify-content-center align-self-center"><div class="dotbox align-self-center">
-                            <span class="dotinside">
-                                Hyvää hampaille<br>-hoitopaketti
-                            </span>
+                        <div class="dot justify-content-center align-self-center">
+                            <div class="dotbox align-self-center">
+                                <span class="dotinside">
+                                    Hyvää hampaille<br>-hoitopaketti
+                                </span>
+                            </div>
                         </div>
-                    </div>
                     </div>
                 </div>
                 <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 justify-content-center">
@@ -121,25 +114,11 @@ Hy­vä suun ter­veys ja hoi­de­tut ham­paat luo­vat poh­jan hy­väl­le 
             </div>
         </div>
     </main>
-    <!---
-    <main role="main" class="container">
-        <div class="starter-template">
-            <div class="row text-center" style="height: 300px">
-                <div class="col-sm-6 col-md-4 col-lg-4">
-                    <div class="dot justify-content-center"><span class="justify-content-center dotspan">Ham­mas­hoi­toa­se­ma Mi­kon­ka­dul­la.</span></div>
-                </div>
-                <div class="col-sm-6 col-md-4 col-lg-4">
-                    <div class="dot">Ham­mas­hoi­toa­se­ma Mi­kon­ka­dul­la.</div>
-                </div>
-                <div class="col-sm-6 col-md-4 col-lg-4">
-                    <div class="dot">Ham­mas­hoi­toa­se­ma Mi­kon­ka­dul­la.</div>
-                </div>
-            </div>
-        </div>
-    </main>
--->
+        <div id="teddyimage"></div>
+
     <main role="main" class="container text-left" id="palvelumme">
         <div class="starter-template text-left" id="palvelumme-container">
+            <!-- All but one of the service sections are hidden at any point in time -->
             <div class="service-section text-left" id="palvelumme-intro">
                 <h1>Palvelumme</h1>
                 <p class="lead nohyph services">Saat meil­tä pe­rus­ham­mas­hoi­don li­säk­si ki­rur­gi­sen ja pro­teet­ti­sen hoi­don se­kä suu­hy­gie­nis­tin pal­ve­lut.
@@ -159,38 +138,122 @@ Hy­vä suun ter­veys ja hoi­de­tut ham­paat luo­vat poh­jan hy­väl­le 
                 <h1>Ohjeita kotihoitoon</h1>
                 <p class="lead nohyph services">Suun ja ham­pai­den ter­vey­del­le päi­vit­täi­nen ko­ti­hoi­to on tär­kein­tä hoi­toa. Har­jaus fluo­ri­tah­nan kans­sa aa­muin il­loin on ko­ti­hoi­don pe­rus­ta. Har­jan tu­li­si ol­la peh­meä ja lii­kaa voi­maa har­ja­tes­sa on syy­tä vält­tää. Eri­tyi­ses­ti ham­pai­den kau­la-alueet ja ien­ra­jat voi­vat ko­val­la har­jal­la tai liian voi­mak­kaal­la har­jaus­tek­nii­kal­la ku­lua ja va­hin­goit­tua.</p>
                 <p class="lead nohyph services">
-                Har­jal­la ham­pai­den vä­lit ei­vät yleen­sä puh­dis­tu riit­tä­vän te­hok­kaas­ti. Ham­mas­lan­ka, -ti­kut tai ham­mas­vä­li­har­ja ovat hy­viä apu­vä­li­nei­tä har­jan li­säk­si. Si­nul­le so­pi­vien ko­ti­hoi­to­vä­li­nei­den va­lin­nas­sa saat apua suu­hy­gie­nis­til­tä.
-
-                Ham­pai­ta ei ole hy­vä har­ja­ta he­ti syön­nin jäl­keen. Ruoan tai vä­li­pa­lan pääl­le on pa­ras huuh­del­la suu ve­del­lä ja ot­taa xy­li­to­li-imes­ke­ly­tab­let­ti. Rei­kiin­ty­mi­salt­tii­den ham­pai­den vah­vis­ta­mi­seen voit käyt­tää imes­kel­tä­viä fluo­ri­tab­let­te­ja. Rei­kiin­ty­mis­tä voit vä­hen­tää myös ra­joit­ta­mal­la päi­vit­täi­set ruo­kai­lu- ja vä­li­pa­la-ajat sään­nöl­li­sik­si - näin hap­po­hyök­käyk­siä ei tu­le liian usein.</p>
+                    Har­jal­la ham­pai­den vä­lit ei­vät yleen­sä puh­dis­tu riit­tä­vän te­hok­kaas­ti. Ham­mas­lan­ka, -ti­kut tai ham­mas­vä­li­har­ja ovat hy­viä apu­vä­li­nei­tä har­jan li­säk­si. Si­nul­le so­pi­vien ko­ti­hoi­to­vä­li­nei­den va­lin­nas­sa saat apua suu­hy­gie­nis­til­tä.
+                    Ham­pai­ta ei ole hy­vä har­ja­ta he­ti syön­nin jäl­keen. Ruoan tai vä­li­pa­lan pääl­le on pa­ras huuh­del­la suu ve­del­lä ja ot­taa xy­li­to­li-imes­ke­ly­tab­let­ti. Rei­kiin­ty­mi­salt­tii­den ham­pai­den vah­vis­ta­mi­seen voit käyt­tää imes­kel­tä­viä fluo­ri­tab­let­te­ja. Rei­kiin­ty­mis­tä voit vä­hen­tää myös ra­joit­ta­mal­la päi­vit­täi­set ruo­kai­lu- ja vä­li­pa­la-ajat sään­nöl­li­sik­si - näin hap­po­hyök­käyk­siä ei tu­le liian usein.</p>
                 <p class="lead nohyph services">
-                Kun huo­leh­dit it­se ham­pais­ta­si, jää mei­dän työm­me osuus var­sin pie­nek­si. Täl­löin sään­nöl­li­ses­ti teh­ty tar­kas­tus ja puh­dis­tus yleen­sä riit­tää.
+                    Kun huo­leh­dit it­se ham­pais­ta­si, jää mei­dän työm­me osuus var­sin pie­nek­si. Täl­löin sään­nöl­li­ses­ti teh­ty tar­kas­tus ja puh­dis­tus yleen­sä riit­tää.
                 </p>
             </div>
             <div class="service-section" id="suuhygienisti">
                 <h1>Suuhygienisti</h1>
                 <p class="lead nohyph services">
-Suu­hy­gie­nis­ti on suun ja ham­pai­den ter­vey­den yl­lä­pi­tä­mi­seen kou­lu­tuk­sen saa­nut am­mat­ti­lai­nen. Suu­hy­gie­nis­ti te­kee mo­ni­puo­li­sia en­nal­taeh­käi­se­viä ja suun ter­veyt­tä yl­lä­pi­tä­viä hoi­to­ja:</p>
-<div style="margin: auto">
-<ul class="lead nohyph services" style="text-align: left;">
-    <li>Hampaiden puhdistus ja hammaskiven poisto</li>
-    <li>Kotihoidon opetus ja hoitovälineiden valinta</li>
-    <li>Ravintoneuvonta</li>
-    <li>Fluoraukset ja mm. hampaiden vihlonnan hoito</li>
-    <li>Röntgentutkimukset</li>
-    <li>Keinojuurihampaiden puhdistus ja hoito</li>
-    <li>Hampaiden valkaisut ja jäljennösten otto</li>
-    <li>Hammaskorujen kiinnitys</li>
-</ul>
-</div>
-<p class="lead nohyph services">
-Ke­la kor­vaa osaa suu­hy­gie­nis­tin te­ke­mis­tä hoi­dois­ta, mm. ham­mas­ki­ven pois­toa ja eh­käi­se­vää hoi­toa.
-
-Kun va­raat ai­kaa suu­hy­gie­nis­til­le, niin huo­mioit­han, et­tä Ke­la-kor­vauk­sen saa­dak­se­si si­nul­la tu­lee ol­la voi­mas­sa ole­va (al­le 2v. van­ha) ham­mas­lää­kä­rin lä­he­te suu­hy­gie­nis­tin hoi­toon.
-
-Lä­het­teen saat vuo­si­tar­kas­tuk­sen yh­tey­des­sä ham­mas­lää­kä­ril­tä­si.
-
+                    Suu­hy­gie­nis­ti on suun ja ham­pai­den ter­vey­den yl­lä­pi­tä­mi­seen kou­lu­tuk­sen saa­nut am­mat­ti­lai­nen. Suu­hy­gie­nis­ti te­kee mo­ni­puo­li­sia en­nal­taeh­käi­se­viä ja suun ter­veyt­tä yl­lä­pi­tä­viä hoi­to­ja:
+                </p>
+                <div style="margin: auto">
+                    <ul class="lead nohyph services" style="text-align: left;">
+                        <li>Hampaiden puhdistus ja hammaskiven poisto</li>
+                        <li>Kotihoidon opetus ja hoitovälineiden valinta</li>
+                        <li>Ravintoneuvonta</li>
+                        <li>Fluoraukset ja mm. hampaiden vihlonnan hoito</li>
+                        <li>Röntgentutkimukset</li>
+                        <li>Keinojuurihampaiden puhdistus ja hoito</li>
+                        <li>Hampaiden valkaisut ja jäljennösten otto</li>
+                        <li>Hammaskorujen kiinnitys</li>
+                    </ul>
+                </div>
+                <p class="lead nohyph services">
+                    Ke­la kor­vaa osaa suu­hy­gie­nis­tin te­ke­mis­tä hoi­dois­ta, mm. ham­mas­ki­ven pois­toa ja eh­käi­se­vää hoi­toa.
+                    Kun va­raat ai­kaa suu­hy­gie­nis­til­le, niin huo­mioit­han, et­tä Ke­la-kor­vauk­sen saa­dak­se­si si­nul­la tu­lee ol­la voi­mas­sa ole­va (al­le 2v. van­ha) ham­mas­lää­kä­rin lä­he­te suu­hy­gie­nis­tin hoi­toon.
+                    Lä­het­teen saat vuo­si­tar­kas­tuk­sen yh­tey­des­sä ham­mas­lää­kä­ril­tä­si.
                 </p>
             </div>
+            <!-- Esteettinen hoito -->
+            <div class="service-section" id="esteettinenhoito">
+                <h1>Esteettinen hoito</h1>
+                <p class="lead nohyph services">Hy­väs­tä ko­ti­hoi­dos­ta huo­li­mat­ta ham­paat saat­ta­vat vär­jään­tyä. Mm. kah­vi, tee, pu­na­vii­ni ja tu­pak­ka ai­heut­ta­vat hel­pos­ti paik­ko­jen ja ham­pai­den tum­mu­mis­ta.</p>
+                <p class="lead nohyph services">Vär­jään­ty­nei­den ham­pai­den puh­dis­tuk­seen on mo­nia mah­dol­li­suuk­sia. Ham­mas­ki­ven ja pla­kin pois­to ja ham­pai­den pas­ta­puh­dis­tus voi­vat jo yk­sin­kin vaa­len­taa ham­pai­ta. Te­hok­kaam­pi soo­da­puh­dis­tus aut­taa sit­keäm­piin vär­jäy­miin.</p>
+                <p class="lead nohyph services">
+                    Van­ho­jen vär­jään­ty­nei­den täyt­tei­den uu­si­mi­nen on help­poa ny­kyi­sil­lä ham­paan­vä­ri­sil­lä paik­ka-ai­neil­la. Tum­men­tu­nut tai ku­lu­nut ham­mask­ruu­nu voi­daan pääl­lys­tää pos­lii­ni­kuo­rel­la.</p>
+            </div>
+            <div class="service-section" id="tarkastuksetjarontgen">
+                <h1>Tarkastukset ja röntgen</h1>
+                <p class="lead nohyph services">Hy­väs­tä ko­ti­hoi­dos­ta huo­li­mat­ta ham­paat saat­ta­vat vär­jään­tyä. Mm. kah­vi, tee, pu­na­vii­ni ja tu­pak­ka ai­heut­ta­vat hel­pos­ti paik­ko­jen ja ham­pai­den tum­mu­mis­ta.</p>
+                <p class="lead nohyph services">Vär­jään­ty­nei­den ham­pai­den puh­dis­tuk­seen on mo­nia mah­dol­li­suuk­sia. Ham­mas­ki­ven ja pla­kin pois­to ja ham­pai­den pas­ta­puh­dis­tus voi­vat jo yk­sin­kin vaa­len­taa ham­pai­ta. Te­hok­kaam­pi soo­da­puh­dis­tus aut­taa sit­keäm­piin vär­jäy­miin.</p>
+                <p class="lead nohyph services">
+                    Van­ho­jen vär­jään­ty­nei­den täyt­tei­den uu­si­mi­nen on help­poa ny­kyi­sil­lä ham­paan­vä­ri­sil­lä paik­ka-ai­neil­la. Tum­men­tu­nut tai ku­lu­nut ham­mask­ruu­nu voi­daan pääl­lys­tää pos­lii­ni­kuo­rel­la.</p>
+                <p class="lead nohyph services">
+                    Jos ha­lu­taan ko­ko ham­mas­ri­vil­le vaa­leam­pi sä­vy, voi­daan ham­paat val­kais­ta. Val­kai­sun voi en­sin teh­dä vas­taa­no­tol­la, jon­ka jäl­keen se on help­po it­se uu­sia ko­to­na ham­pai­den mal­lien mu­kaan teh­dyil­lä hen­ki­lö­koh­tai­sil­la val­kai­su­muo­teil­la. Myös yk­sit­täi­nen vär­jään­ty­nyt ham­mas voi­daan val­kais­ta. </p>
+            </div>
+            <div class="service-section" id="paikkaushoidot">
+                <h1>Paikkaushoidot ja Cerec-täytteet</h1>
+                <p class="lead nohyph services">Rei­kiin­ty­neen, ku­lu­neen tai loh­jen­neen ham­paan kor­jaa­mi­seen on tä­nä päi­vä­nä tar­jol­la pal­jon eri vaih­toeh­to­ja. Ta­val­li­sin paik­ka­ma­te­riaa­li on ham­paan­vä­ri­nen muo­vi. Muo­via käy­te­tään usein etu­ham­pai­den paik­kauk­sis­sa ja myös pie­nem­mis­sä ta­ka­ham­ma­sa­lueen täyt­teis­sä.</p>
+                <p class="lead nohyph services">Yk­sit­täi­nen puut­tu­va ham­mas voi­daan jos­kus kor­va­ta naa­pu­ri­ham­pai­siin yh­dis­te­tyl­lä paik­ka-ai­nees­ta val­mis­te­tul­la la­si­kui­tu­lu­jit­tei­sel­la ke­vyt­sil­lal­la.</p>
+                <p class="lead nohyph services">Suu­rem­mis­sa, eri­tyi­ses­ti pu­ren­ta­ra­si­tuk­sen alai­sis­sa ta­ka­ham­pai­den pai­kois­sa voi­daan käyt­tää pa­rem­min ku­lu­mis­ta kes­tä­viä, ke­raa­mi­sia ma­te­riaa­le­ja. Ny­kyai­kai­nen, kes­tä­vä ja toi­mi­va vaih­toeh­to suus­sa val­mis­tet­ta­vil­le pai­koil­le on suun ul­ko­puo­lel­la val­mis­tet­tu Ce­rec-täy­te.</p>
+                <p class="lead nohyph services">Paik­ka voi­daan muo­toil­la pu­ren­nan kan­nal­ta toi­mi­vam­mak­si ja ta­val­lis­ta muo­via huo­mat­ta­vas­ti ko­vem­pa­na se ei loh­kea ja kes­tää ku­lu­mis­ta pa­rem­min. </p>
+                <p class="lead nohyph services">Ce­re­cil­lä voi­daan to­teut­taa ma­ta­lak­si ku­lu­nei­den pu­ren­to­jen kun­nos­ta­mi­sia ja ko­ro­tuk­sia se­kä myös vär­jään­ty­nei­den, pal­jon pai­kat­tu­jen ham­pai­den es­teet­ti­siä hoi­to­ja.</p>
+                <p class="lead nohyph services">Jos ham­pais­tol­le teh­dään laa­jem­pia, useam­pien ham­pai­den kor­jauk­sia sa­mal­la hoi­to­jak­sol­la, sääs­tyy ai­kaa ja myös ra­haa. Täl­löin myös yk­sit­täis­ten paik­ko­jen hin­ta on sel­väs­ti edul­li­sem­pi.</p>
+            </div>
+            <div class="service-section" id="juurihoito">
+                <h1>Juurihoito</h1>
+                <p class="lead nohyph services">Jos ka­ries on eden­nyt ham­paan her­mo­ka­na­vaan as­ti tai elä­vä ham­mas jos­tain syys­tä tu­leh­tuu, voi­daan ham­paal­le teh­dä juu­ri­hoi­to.</p>
+                <p class="lead nohyph services">Juu­ri­hoi­dos­sa ham­paan juu­ri­ka­na­vas­ta pois­te­taan her­mo­ku­dos, ka­na­va puh­dis­te­taan ja sii­hen lai­te­taan lää­ki­tys. Lää­ki­tys­jak­son jäl­keen ka­na­va täy­te­tään ja ham­mas pai­ka­taan nor­maa­lis­ti.</p>
+            </div>
+            <div class="service-section" id="iensairaudet">
+                <h1>Iensairaudet</h1>
+                <p class="lead nohyph services">Hy­väs­tä ko­ti­hoi­dos­ta huo­li­mat­ta useim­mil­le ke­hit­tyy jon­kin ver­ran ham­mas­ki­veä - toi­sil­le on­gel­mak­si as­ti. Ham­mas­ki­vi on syl­jes­tä ja pla­kis­ta ham­paan pin­nal­le ko­vet­tu­nut­ta pei­tet­tä, jo­ta ei enää ko­ti­hoi­dol­la saa pois­tet­tua. Jos ham­mas­ki­vi jää ien­tas­kuun se ai­heut­taa ike­nien tu­leh­tu­mis­ta. Sel­vin merk­ki täs­tä voi ol­la ike­nien ve­ren­vuo­to ham­pai­ta har­jat­taes­sa.</p>
+                <p class="lead nohyph services">Pit­käl­le eden­nee­nä ien­tu­leh­dus­bak­tee­rien toi­min­ta hei­ken­tää ham­paan kiin­nit­ty­mis­tä, sy­ven­tää ham­paan ja ike­nen vä­lis­sä ole­vaa ien­tas­kua ja voi lo­pul­ta joh­taa ham­paan ir­toa­mi­seen ko­ko­naan.</p>
+                <p class="lead nohyph services">
+                    Ham­mas­ki­vi tu­lee pois­taa sään­nöl­li­ses­ti. Sy­ven­ty­nei­den ien­tas­ku­jen hoi­dos­sa voi jos­kus ien­leik­kauk­ses­ta tai ham­pai­den yh­teen­kis­ko­tuk­ses­ta ol­la apua.</p>
+            </div>
+            <div class="service-section" id="proteettinenhoito">
+                <h1>Proteettinen hoito</h1>
+                <p class="lead nohyph services">Yh­den tai useam­man me­ne­te­tyn ham­paan kor­vaa­mi­seen on pal­jon mah­dol­li­suuk­sia. Yk­sit­täi­sen put­tu­van ham­paan kor­vaa­mi­seen imp­lant­ti on yleen­sä pa­ras vaih­toeh­to.</p>
+                <p class="lead nohyph services">Kiin­teäl­lä kruu­nul­la tai ham­mas­sil­lal­la saa­daan puut­tu­vien ham­pai­den ti­lal­le uu­sia tai voi­daan kun­nos­taa esi­mer­kik­si juu­ri­hoi­det­tu ham­mas kes­tä­mään pa­rem­min pu­ren­ta­voi­mia. Yk­sit­täi­nen kruu­nu tai sil­ta teh­dään yleen­sä ham­paan­vä­ri­ses­tä ke­raa­mi­ses­ta ma­te­riaa­lis­ta.</p>
+                <p class="lead nohyph services">
+                    Useam­man puut­tu­van ham­paan kor­vaa­mi­nen on mah­dol­lis­ta myös ir­ral­li­sel­la osap­ro­tee­sil­la. Sen run­ko voi ol­la me­tal­lia tai muo­via.</p>
+            </div>
+            <div class="service-section" id="kirurgisethoidot">
+                <h1>Kirurgiset hoidot ja implantit</h1>
+                <p class="lead nohyph services">
+                    Pe­rus­ham­mas­hoi­don li­säk­si vas­taa­no­tol­lam­me teh­dään myös ki­rur­gi­sia hoi­to­ja: mm. puh­kea­mat­to­mien tai osit­tain puh­jen­nei­den vii­sau­den­ham­pai­den pois­to­ja, imp­lant­ti­hoi­to­ja, suun alueen tu­leh­dus­ten ki­rur­gi­sia hoi­to­ja ja suun li­ma­kal­vo­sai­rauk­sien hoi­to­ja.
+                </p>
+                <p class="lead nohyph services">
+                    Ti­taa­nis­ta val­mis­tet­tu imp­lant­ti eli kei­no­juu­ri on luon­nol­li­sin ta­pa kor­va­ta ko­ko­naan puut­tu­va oma ham­mas. Imp­lan­teil­la voi­daan kor­va­ta yk­sit­täi­nen ham­mas, muu­ta­ma puut­tu­va ham­mas tai ham­paat­to­man leuan ko­ko pu­ren­ta.
+                </p>
+                <p class="lead nohyph services">
+                    Imp­lant­ti­hoi­don aluk­si teh­dään yleis­tar­kas­tus ja ote­taan tar­vit­ta­vat rönt­gen­ku­vat hoi­don suun­nit­te­lua var­ten. Tar­vit­taes­sa suu­hy­gie­nis­ti te­kee ham­pai­den kiin­ni­tys­ku­dos­ten pe­rus­hoi­don ja puh­dis­tuk­sen. It­se imp­lan­tin ase­tus on pai­kal­lis­puu­du­tuk­ses­sa teh­tä­vä, yleen­sä var­sin ly­hyt ki­rur­gi­nen toi­men­pi­de.
+                </p>
+                <p class="lead nohyph services">
+                    Imp­lan­tin luu­tu­mi­sen jäl­keen – ta­val­li­ses­ti n. 2-5 kuu­kau­den ku­lut­tua – ham­pais­tos­ta ote­taan jäl­jen­nök­set ja imp­lan­tin pääl­le val­mis­te­taan tar­kas­ti so­pi­va kruu­nuo­sa.
+                </p>
+                <p class="lead nohyph services">
+                    Po­ti­laan oma­vas­tuuo­suus imp­lant­ti­hoi­don kus­tan­nuk­sis­ta on en­sim­mäi­sel­tä imp­lan­til­ta al­kaen 1 850 - 2500 € ja seu­raa­vien, sa­mal­la käyn­ti­ker­ral­la ase­tet­ta­vien imp­lant­tien osal­ta al­kaen 1 450 - 2300 €. Hin­ta-ar­viot si­säl­tä­vät hoi­don suun­nit­te­lun, imp­lan­tin ase­tuk­sen se­kä pro­teet­ti­sen hoi­don.</p>
+                <p class="lead nohyph services">
+                    Myös ir­top­ro­tee­sil­le voi saa­da li­sä­tu­kea imp­lan­teis­ta. Muu­ten usein han­ka­las­ti py­sy­vä ala­leuan ko­kop­ro­tee­si­kin saa­daan imp­lan­teil­la var­sin tu­ke­vak­si.</p>
+                <h1>Maksuton implanttihoitoarvio</h1>
+                <p class="lead nohyph services">
+                    Voit va­ra­ta ajan mak­sut­to­maan ar­vioon kei­no­juu­ri­hoi­don so­pi­vuu­des­ta. Jä­tä ajan­va­raus­ta var­ten yh­teys­tie­to­si säh­kö­pos­tit­se osoit­tee­seen imp­lant­ti (at) dent­ti.fi tai jä­tä yh­tey­de­not­to­pyyn­tö <a href="#yhteystiedot">yh­teys­tie­dot-si­vun</a> kaut­ta.
+                </p>
+            </div>
+            <div class="service-section" id="kuluneenpurennanhoito">
+                <h1>Kuluneen purennan hoito</h1>
+                <p class="lead nohyph services">
+                    Pal­jon pai­ka­tun ja pu­ren­ta­kor­keu­del­taan ma­dal­tu­neen tai ku­lu­neen pu­ren­nan hoi­to voi­daan to­teut­taa Ce­rec- me­ne­tel­mäl­lä no­peas­ti ja pe­rin­tei­siä me­ne­tel­miä koh­tuul­li­sem­min kus­tan­nuk­sin.
+                </p>
+                <p class="lead nohyph services">
+                    Jos pu­ren­nan ku­lu­mi­sen syy on ham­pai­den liial­li­ses­sa nars­kut­te­lus­sa on hoi­don tuek­si usein hyö­dyl­lis­tä val­mis­taa myös pu­ren­ta­kis­ko.
+                </p>
+            </div>
+            <div class="service-section" id="bruksismi">
+                <h1>Bruksismi – Hampaiden narskuttelu</h1>
+                <p class="lead nohyph services">Ham­pai­den voi­ma­kas yh­teen­pu­re­mi­nen ja lii­kut­te­lu toi­siaan vas­ten eri­tyi­ses­ti yöai­kaan – bruk­saa­mi­nen - voi ai­heut­taa mo­nen­lai­sia oi­rei­ta ja on­gel­mia.</p>
+                <p class="lead nohyph services">Nars­kut­te­lu ku­lut­taa ham­mas­kiil­let­tä ja saat­taa ai­heut­taa ham­pai­den ja paik­ko­jen loh­kei­lua. Leu­ka­ni­ve­let ja pu­re­ma­li­hak­set saat­ta­vat ki­pey­tyä. Myös har­tia­vai­vo­ja, union­gel­mia ja pään­sär­kyä voi esiin­tyä.</p>
+                <p class="lead nohyph services">Pait­si nuk­kues­sa, nars­kut­te­lua voi esiin­tyä myös päi­väai­kaan eri­tyi­ses­ti st­res­saa­vis­sa ti­lan­teis­sa.</p>
+                <p class="lead nohyph services">Nars­kut­te­lun ylei­sim­piä hoi­to­kei­no­ja ovat&nbsp; pu­ren­ta­kis­ko ja pu­ren­nan hio­mi­nen ta­sa­pai­noi­sem­mak­si.</p>
+                <p class="lead nohyph services">Pu­ren­ta­kis­kol­la suo­ja­taan ham­pai­ta loh­kei­lul­ta ja se es­tää ham­pai­den ja paik­ko­jen yöai­kai­sen ku­lu­mi­sen. Kis­kol­la ren­tou­te­taan myös pu­re­ma­li­hak­sia ja eh­käis­tään li­säon­gel­mia.</p>
+                <p class="lead nohyph services">Pu­ren­nan hio­mi­sel­la hoi­de­taan ham­pai­den vää­rän­lai­sen ku­lu­mi­sen ai­heut­ta­mia pu­ren­taon­gel­mia ja eh­käis­tään ham­pai­den loh­kei­lua.</p>
+            </div>
+            <!-- Links to service info sections -->
             <div id="servicelinks" class="row text-left">
                 <div class="col-md-6 col-lg-4">
                     <figure class="figure">
@@ -198,33 +261,32 @@ Lä­het­teen saat vuo­si­tar­kas­tuk­sen yh­tey­des­sä ham­mas­lä�
                             <p class="lead" onclick="highlightService('#ehkaisevahoito')">Ehkäisevä hoito</p>
                             <p class="lead" onclick="highlightService('#ohjeitakotihoitoon')">Ohjeita kotihoitoon</p>
                             <p class="lead" onclick="highlightService('#suuhygienisti')">Suuhygienisti</p>
-                            <p class="lead">Esteettinen hoito</p>
+                            <p class="lead" onclick="highlightService('#esteettinenhoito')">Esteettinen hoito</p>
                         </div>
                     </figure>
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <figure class="figure">
                         <div class="caption">
-                            <p class="lead">Tarkastukset ja röntgen</p>
-                            <p class="lead">Paikkaushoidot ja Cerec-täytteet</p>
-                            <p class="lead">Juurihoito</p>
-                            <p class="lead">Iensairaudet</p>
+                            <p class="lead" onclick="highlightService('#tarkastuksetjarontgen')">Tarkastukset ja röntgen</p>
+                            <p class="lead" onclick="highlightService('#paikkaushoidot')">Paikkaushoidot ja Cerec-täytteet</p>
+                            <p class="lead" onclick="highlightService('#juurihoito')">Juurihoito</p>
+                            <p class="lead" onclick="highlightService('#iensairaudet')">Iensairaudet</p>
                         </div>
                     </figure>
                 </div>
                 <div class="col-md-12 col-lg-4">
                     <figure class="figure">
                         <div class="caption">
-                            <p class="lead">Proteettinen hoito</p>
-                            <p class="lead">Kirurgiset hoidot ja implantit</p>
-                            <p class="lead">Kuluneen purennan hoito</p>
-                            <p class="lead">Bruksismi - hampaiden narskuttelu</p>
+                            <p class="lead" onclick="highlightService('#proteettinenhoito')">Proteettinen hoito</p>
+                            <p class="lead" onclick="highlightService('#kirurgisethoidot')">Kirurgiset hoidot ja implantit</p>
+                            <p class="lead" onclick="highlightService('#kuluneenpurennanhoito')">Kuluneen purennan hoito</p>
+                            <p class="lead" onclick="highlightService('#bruksismi')">Bruksismi - hampaiden narskuttelu</p>
                         </div>
                     </figure>
                 </div>
             </div>
     </main>
-    <div id="teddyimage"></div>
     <main role="main" class="container" id="henkilokunta">
         <div class="text-left starter-template">
             <h1>Henkilökunta</h1>
@@ -306,7 +368,6 @@ Lä­het­teen saat vuo­si­tar­kas­tuk­sen yh­tey­des­sä ham­mas­lä�
                     </tbody>
                 </table>
             </div>
-            
         </div>
     </main>
     <div id="clockimage"></div>
@@ -324,41 +385,40 @@ Lä­het­teen saat vuo­si­tar­kas­tuk­sen yh­tey­des­sä ham­mas­lä�
     </main>
     <div id="map" class="map"></div>
     <script type="text/javascript">
-      var map = new ol.Map({
+    var map = new ol.Map({
         target: 'map',
         layers: [
-          new ol.layer.Tile({
-            source: new ol.source.OSM()
-          })
+            new ol.layer.Tile({
+                source: new ol.source.OSM()
+            })
         ],
         view: new ol.View({
-          center: ol.proj.fromLonLat([24.9457241,60.1706629]),
-          zoom: 14
+            center: ol.proj.fromLonLat([24.9457241, 60.1706629]),
+            zoom: 14
         }),
-        interactions: ol.interaction.defaults({mouseWheelZoom:false}),
-      });
-      //Adding a marker on the map
-      var marker = new ol.Feature({
+        interactions: ol.interaction.defaults({ mouseWheelZoom: false }),
+    });
+    //Adding a marker on the map
+    var marker = new ol.Feature({
         geometry: new ol.geom.Point(
-          ol.proj.fromLonLat([24.9457241,60.1706629])
-        ),  // Cordinates of New York's Town Hall
-      });
-      marker.setStyle(new ol.style.Style({
+            ol.proj.fromLonLat([24.9457241, 60.1706629])
+        ), // Cordinates of New York's Town Hall
+    });
+    marker.setStyle(new ol.style.Style({
         image: new ol.style.Icon(({
-          anchor: [0.5, 1],
+            anchor: [0.5, 1],
             //crossOrigin: 'anonymous',
             src: 'img/pin-small.png'
         }))
     }));
-      var vectorSource = new ol.source.Vector({
+    var vectorSource = new ol.source.Vector({
         features: [marker]
-      });
-      var markerVectorLayer = new ol.layer.Vector({
+    });
+    var markerVectorLayer = new ol.layer.Vector({
         source: vectorSource,
-      });
-      map.addLayer(markerVectorLayer);
-      </script>
-
+    });
+    map.addLayer(markerVectorLayer);
+    </script>
     <main role="main" class="container" id="yhteystiedot">
         <div class="text-left starter-template">
             <h1 id="yhteystiedot-h">
@@ -382,7 +442,6 @@ Lä­het­teen saat vuo­si­tar­kas­tuk­sen yh­tey­des­sä ham­mas­lä�
                         </div>
                     </div>
                 </div>
-
                 <div class="col-sm-12 col-md-6 col-lg-6">
                     <div class="md-form">
                         <label for="form1" class="lead">Ota yhteyttä:</label>
@@ -398,7 +457,7 @@ Lä­het­teen saat vuo­si­tar­kas­tuk­sen yh­tey­des­sä ham­mas­lä�
                             <option value="Palaute hoidosta">Palaute hoidosta</option>
                             <option value="Palaute www-sivuista">Palaute kotisivuista</option>
                         </select>
-                            <textarea name="Text1" cols="40" rows="4" placeholder="Viesti*" class="form-control contactform"></textarea>
+                        <textarea name="Text1" cols="40" rows="4" placeholder="Viesti*" class="form-control contactform"></textarea>
                         <button class="form-control contactform">Lähetä</button>
                     </div>
                 </div>
