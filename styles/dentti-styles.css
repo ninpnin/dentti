@@ -121,6 +121,12 @@ body {
 
 }
 
+@media only screen and (max-width: 1000px) {
+    #firstimage {
+      min-height: 40vh;
+    }
+}
+
 #clockimage {
   width: 100%;
   min-height: 50vh;
@@ -271,9 +277,9 @@ a:hover {
 }
 
 #servicelinks p {
-  text-decoration: underline;
+  text-decoration: none;
 }
 #servicelinks p:hover {
   color: gray;
-  text-decoration: none;
+  text-decoration: underline;
 }
