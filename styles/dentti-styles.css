@@ -76,6 +76,15 @@ body {
 
 .dotinside {
   margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.dotinside > a {
+  text-decoration: unset;
+}
+
+.dotinside > a:hover {
+  text-decoration: underline;
 }
 
 
@@ -155,7 +164,7 @@ body {
 
 @media only screen and (max-width: 1080px) {
     #teddyimage {
-      background-image: url("../img/hammasharja2.jpg");
+      background-image: url("../img/nalle-odottaa-2.jpg");
       min-height: 50vh;
     }
 }

@@ -3,7 +3,7 @@ function switchImage() {
 	var img1 = "img/nalle-odottaa.png"
 	var img2 = "img/hammasharja.png"
 	var img3 = "img/cerec.jpg"
-	var img4 = "img/hammasharja2.jpg"
+	var img4 = "img/nalle-odottaa-2.png"
 
 	// Randomize; TODO: make deterministic
 	// TODO: adjust placing differently for each image
