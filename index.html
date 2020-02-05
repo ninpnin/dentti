@@ -112,7 +112,7 @@ Hy­vä suun ter­veys ja hoi­de­tut ham­paat luo­vat poh­jan hy­väl­le 
                         <div class="dot justify-content-center align-self-center">
                             <div class="dotbox align-self-center">
                                 <span class="dotinside">
-                                    <a href="form.pdf" style="color: white;">Tulosta esitietolomake tästä</a>
+                                    <a href="form.pdf" style="color: white;" target="_blank">Tulosta esitietolomake tästä</a>
                                 </span>
                             </div>
                         </div>
@@ -315,7 +315,7 @@ Lä­het­teen saat vuo­si­tar­kas­tuk­sen yh­tey­des­sä ham­mas­lä�
             <h1>
                 Ajanvaraus
             </h1>
-            <p class="lead nohyph">Net­tia­jan­va­rauk­sen voit teh­dä it­se hel­pos­ti <u><a href="https://appointment.assiscare.com/#dentti/appointment">tästä linkistä</a></u>. Voit myös jät­tää meil­le yh­tey­de­not­to­pyyn­nön yh­teys­tie­dot-si­vul­la ole­val­la lo­mak­keel­la tai säh­kö­pos­til­la osoit­tee­seem­me hoi­to@dent­ti.fi. Voit tulostaa esitietolomakkeen <u><a href="form.pdf">tästä</a></u>.</p>
+            <p class="lead nohyph">Net­tia­jan­va­rauk­sen voit teh­dä it­se hel­pos­ti <u><a href="https://appointment.assiscare.com/#dentti/appointment" target="_blank">tästä linkistä</a></u>. Voit myös jät­tää meil­le yh­tey­de­not­to­pyyn­nön yh­teys­tie­dot-si­vul­la ole­val­la lo­mak­keel­la tai säh­kö­pos­til­la osoit­tee­seem­me hoi­to@dent­ti.fi. Voit tulostaa esitietolomakkeen <u><a href="form.pdf" target="_blank">tästä</a></u>.</p>
             <p class="lead nohyph">Pu­he­lin­nu­me­rom­me on 045 353 3498. Jos em­me eh­di vas­taa­maan, niin soi­tam­me si­nul­le ta­kai­sin ja pu­he­lin­vas­taa­jam­me päi­vys­tää myös sil­loin, kun em­me ole pai­kal­la.
                 Kun va­raat ai­kaa suu­hy­gie­nis­til­le, niin huo­mioit­han, et­tä Ke­la-kor­vauk­sen saa­dak­se­si si­nul­la tu­lee ol­la voi­mas­sa ole­va (al­le 2v. van­ha) ham­mas­lää­kä­rin lä­he­te suu­hy­gie­nis­tin hoi­toon. Lä­het­teen saat vuo­si­tar­kas­tuk­sen yh­tey­des­sä ham­mas­lää­kä­ril­tä­si.
                 Jos si­nul­la on jo­tain ky­syt­tä­vää ajan­va­rauk­seen tai lä­het­tee­seen liit­tyen, voit lä­het­tää ky­sy­myk­se­si yh­teys­tie­dot-si­vul­la ole­val­la lo­mak­keel­la.
@@ -388,17 +388,17 @@ Lä­het­teen saat vuo­si­tar­kas­tuk­sen yh­tey­des­sä ham­mas­lä�
                         <label for="form1" class="lead">Ota yhteyttä:</label>
                         <input type="text" id="form1" class="form-control contactform" placeholder="Nimi*">
                         <input type="text" id="form2" class="form-control contactform" placeholder="Sähköpostiosoite*">
-                        <input type="text" id="form3" class="form-control contactform" placeholder="Puhelinnumero">
-                         <div class="dropdown">
-                      <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
-                        Asiani koskee...
-                      </button>
-                      <div class="dropdown-menu">
-                        <a class="dropdown-item" href="">Tsiigaa</a>
-                        <a class="dropdown-item" href="">dentti.fi</a>
-                      </div>
-                        </div> 
-                        <textarea name="Text1" cols="40" rows="4" placeholder="Viesti*" class="form-control contactform"></textarea>
+                        <input type="text" id="form3" class="form-control contactform" placeholder="Puhelinnumero*">
+                        <select class="form-control" id="exampleFormControlSelect1">
+                            <option value="" selected="" disabled="">Asiani koskee...*</option>
+                            <option value="Ajanvarauspyyntö">Ajanvarauspyyntö</option>
+                            <option value="Yhteydenottopyyntö">Yhteydenottopyyntö</option>
+                            <option value="Maksuton implanttiarvio">Maksuton implanttiarvio</option>
+                            <option value="Maksuton Cerec-arvio">Maksuton Cerec-arvio</option>
+                            <option value="Palaute hoidosta">Palaute hoidosta</option>
+                            <option value="Palaute www-sivuista">Palaute kotisivuista</option>
+                        </select>
+                            <textarea name="Text1" cols="40" rows="4" placeholder="Viesti*" class="form-control contactform"></textarea>
                         <button class="form-control contactform">Lähetä</button>
                     </div>
                 </div>
