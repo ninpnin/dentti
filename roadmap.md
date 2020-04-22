@@ -2,11 +2,16 @@
 
 - [x] Perustoiminnallisuudet
 
+- [x] Webhotelli ja CMS
+
+  - [x] Käytetään Grav:ia
+  - [x] Millaisia muita vaihtoehtoja, mitä maksaa
+
 - [ ] Erikieliset sivut
   
   - [ ] Vaihtologiikka
-  
   - [ ] Luo tekstitiedostot ja hae teksti niistä sivuille
+  - [ ] Esitietolomake kielen mukaan
 
 - [x] Käytä Openlayersia karttoihin
   
@@ -23,14 +28,13 @@
 - [ ] Etusivun pallot
   
   - [x] Luo pallot
-  
   - [x] Taustakuva
+  - [x] Tekstit kunnolla
+  - [ ] Peilaa / pyöräytä taustakuva
   
-  - [ ] Tekstit kunnolla
-
 - [ ] Varmista mobiiliresponsiivisuus
   
-  - [ ] Taulukko vuotaa yli, tee jotain
+  - [ ] Taulukko vuotaa yli, piilota kela-sarake tarvittaessa
 
 - [ ] Tee yhteydenottolomakkeesta toiminnallinen
   
@@ -44,4 +48,9 @@
   
   - [ ] Hio ulkonäköä
 
-
+- [ ] Sekalaista
+  
+  - [ ] Korjaa yläpalkin korostus, eri otsikon alla kuin mihin sivu on selattu
+  - [ ] Toteuta kuvien feidaus niin että toimii Firefoxilla
+  
+  

@@ -2,3 +2,5 @@ dentti.pdf
 bootstrap/*
 *.DS_Store
 dentti.md
+openlayers-sandbox/
+*.icloud

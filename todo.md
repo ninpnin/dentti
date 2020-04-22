@@ -1,14 +1,16 @@
 #Dentti
+
 ## Puuttuu
+
 * neljä palloa tarjouksiin yms
 * tietosuojaseloste
-** alas
+  ** alas
 * esitietolomake
-** ajanvaraukseen, pallo ehdotettu
+  ** ajanvaraukseen, pallo ehdotettu
 * Hinnaston automaattinen lataaminen
 * funtkionaalinen kartta
 
-##Säätöä
+## Säätöä
 
 * Symmetrisyys/epäsymmetrisyys
 * kartan värit
